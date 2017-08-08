@@ -35,6 +35,8 @@
 #include <iostream>
 #include <unistd.h>
 #include <algorithm>
+#include <cstring>
+
 
 using namespace std;
 
