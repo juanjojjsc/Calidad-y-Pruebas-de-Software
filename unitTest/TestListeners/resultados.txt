@@ -1,0 +1,12 @@
+Juan Jose Santos
+
+Resultados
+
+Iniciando Test
+Test Case: TestCaseUno
+Test Name: NombreTest
+Exito! No hay fallas
+Tiempo Case: 0 ms
+Tests Correctos: 1
+Tests Fallidos: 0
+Tiempo Programa: 0 ms
