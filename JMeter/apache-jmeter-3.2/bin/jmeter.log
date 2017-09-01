@@ -1,227 +1,989 @@
-2017-08-29 08:58:21,079 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2017-08-29 08:58:21,089 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2017-08-29 08:58:21,090 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2017-08-29 08:58:21,094 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
-2017-08-29 08:58:21,094 INFO o.a.j.JMeter: Version 3.2 r1790748
-2017-08-29 08:58:21,094 INFO o.a.j.JMeter: java.version=1.8.0_121
-2017-08-29 08:58:21,094 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2017-08-29 08:58:21,094 INFO o.a.j.JMeter: os.name=Mac OS X
-2017-08-29 08:58:21,095 INFO o.a.j.JMeter: os.arch=x86_64
-2017-08-29 08:58:21,095 INFO o.a.j.JMeter: os.version=10.12.5
-2017-08-29 08:58:21,095 INFO o.a.j.JMeter: file.encoding=UTF-8
-2017-08-29 08:58:21,095 INFO o.a.j.JMeter: Max memory     =1908932608
-2017-08-29 08:58:21,095 INFO o.a.j.JMeter: Available Processors =8
-2017-08-29 08:58:21,098 INFO o.a.j.JMeter: Default Locale=English (United States)
-2017-08-29 08:58:21,098 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2017-08-29 08:58:21,099 INFO o.a.j.JMeter: JMeterHome=/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/apache-jmeter-3.2
-2017-08-29 08:58:21,099 INFO o.a.j.JMeter: user.dir  =/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/apache-jmeter-3.2/bin
-2017-08-29 08:58:21,099 INFO o.a.j.JMeter: PWD       =/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/apache-jmeter-3.2/bin
-2017-08-29 08:58:21,101 INFO o.a.j.JMeter: IP: 10.49.85.101 Name: HAL-9000.local FullName: 10.49.85.101
-2017-08-29 08:58:22,528 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System]
-2017-08-29 08:58:22,532 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2017-08-29 08:58:22,956 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2017-08-29 08:58:22,956 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2017-08-29 08:58:23,585 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
-2017-08-29 08:58:24,228 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
-2017-08-29 08:58:24,260 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
-2017-08-29 08:58:24,290 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2017-08-29 08:58:24,290 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2017-08-29 08:58:24,290 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2017-08-29 08:58:24,290 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2017-08-29 08:58:24,290 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2017-08-29 08:58:24,290 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2017-08-29 08:58:24,653 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2017-08-29 08:58:24,654 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/apache-jmeter-3.2/bin/proxyserver.jks
-2017-08-29 08:58:24,760 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
-2017-08-29 08:58:24,795 INFO o.a.j.s.FileServer: Default base='/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/apache-jmeter-3.2/bin'
-2017-08-29 08:58:24,859 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
-2017-08-29 08:58:24,860 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
-2017-08-29 08:58:24,949 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
-2017-08-29 08:58:24,973 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
-2017-08-29 08:58:25,092 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2017-08-29 08:58:25,093 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2017-08-29 08:58:25,093 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2017-08-29 08:58:25,093 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2017-08-29 09:05:16,597 INFO o.a.j.s.FileServer: Set new base='/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/apache-jmeter-3.2'
-2017-08-29 09:05:16,679 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2017-08-29 09:05:16,693 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2017-08-29 09:05:16,694 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
-2017-08-29 09:05:16,721 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:05:16,722 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:05:16,722 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:05:16,743 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:05:16,955 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:05:16,955 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:05:16,955 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:05:16,955 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:05:16,959 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:05:16,959 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:05:16,962 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:05:16,977 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:05:16,977 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:05:16,977 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:05:16,978 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:05:43,446 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:05:43,446 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:05:43,449 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:05:43,626 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:05:43,626 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:05:43,626 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:05:43,626 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:05:43,627 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:05:43,627 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:05:43,627 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:05:43,705 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:05:43,705 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:05:43,705 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:05:43,706 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:06:31,226 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:06:31,226 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:06:31,228 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:06:31,396 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:06:31,396 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:06:31,396 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:06:31,397 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:06:31,397 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:06:31,397 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:06:31,397 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:06:31,401 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:06:31,401 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:06:31,401 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:06:31,401 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:29:29,687 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:29:29,693 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:29:29,700 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:29:29,955 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:29:29,955 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:29:29,955 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:29:29,955 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:29:29,955 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:29:29,955 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:29:29,956 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:29:29,989 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:29:29,990 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:29:29,990 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:29:29,990 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:29:33,244 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:29:33,244 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:29:33,247 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:29:33,326 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:29:33,326 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:29:33,326 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:29:33,327 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:29:33,327 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:29:33,327 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:29:33,327 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:29:33,330 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:29:33,330 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:29:33,330 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:29:33,330 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:35:02,275 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:35:02,276 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:35:02,278 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:35:02,462 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:35:02,463 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:35:02,463 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:35:02,463 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:35:02,463 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:35:02,464 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:35:02,464 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:35:02,467 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:35:02,467 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:35:02,468 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:35:02,468 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:35:04,943 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:35:04,943 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:35:04,946 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:35:05,059 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:35:05,059 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:35:05,059 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:35:05,060 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:35:05,060 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:35:05,060 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:35:05,061 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:35:05,063 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:35:05,063 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:35:05,063 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:35:05,063 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:35:10,914 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:35:10,914 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:35:10,922 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:35:11,055 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:35:11,056 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:35:11,056 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:35:11,056 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:35:11,056 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:35:11,056 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:35:11,057 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:35:11,060 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:35:11,061 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:35:11,061 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:35:11,061 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:35:24,926 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:35:24,926 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:35:24,928 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:35:25,007 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:35:25,007 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:35:25,007 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:35:25,007 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:35:25,007 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:35:25,007 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:35:25,008 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:35:25,220 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:35:25,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:35:25,220 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:35:25,222 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:35:52,157 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:35:52,158 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:35:52,159 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:35:52,294 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:35:52,294 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:35:52,295 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:35:52,295 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:35:52,295 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:35:52,295 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:35:52,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:35:52,372 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:35:52,372 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:35:52,372 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:35:52,374 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:40:47,397 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2017-08-29 09:40:47,401 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2017-08-29 09:40:47,403 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2017-08-29 09:40:47,689 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2017-08-29 09:40:47,689 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2017-08-29 09:40:47,689 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2017-08-29 09:40:47,689 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2017-08-29 09:40:47,690 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2017-08-29 09:40:47,690 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2017-08-29 09:40:47,690 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2017-08-29 09:40:47,784 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2017-08-29 09:40:47,785 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2017-08-29 09:40:47,785 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2017-08-29 09:40:47,788 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2017-08-29 09:42:33,697 ERROR o.a.j.g.a.Save: Error saving tree.
-java.io.FileNotFoundException: /Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/apache-jmeter-3.2/prueba3.jmx (No such file or directory)
-	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_121]
-	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_121]
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_121]
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:101) ~[?:1.8.0_121]
-	at org.apache.jmeter.gui.action.Save.doAction(Save.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:74) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:59) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_121]
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756) [?:1.8.0_121]
-	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_121]
-	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_121]
-	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_121]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_121]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_121]
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726) [?:1.8.0_121]
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_121]
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_121]
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_121]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_121]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_121]
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_121]
-2017-08-29 09:43:01,466 INFO o.a.j.s.FileServer: Set new base='/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter'
+2017-09-01 08:16:48,966 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-09-01 08:16:48,978 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2017-09-01 08:16:48,979 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: java.version=1.8.0_121
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: os.name=Mac OS X
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: os.arch=x86_64
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: os.version=10.12.5
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: file.encoding=UTF-8
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: Max memory     =536870912
+2017-09-01 08:16:48,985 INFO o.a.j.JMeter: Available Processors =8
+2017-09-01 08:16:48,991 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-09-01 08:16:48,991 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-09-01 08:16:48,991 INFO o.a.j.JMeter: JMeterHome=/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2
+2017-09-01 08:16:48,991 INFO o.a.j.JMeter: user.dir  =/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2/bin
+2017-09-01 08:16:48,991 INFO o.a.j.JMeter: PWD       =/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2/bin
+2017-09-01 08:16:48,993 INFO o.a.j.JMeter: IP: 10.49.85.101 Name: HAL-9000.local FullName: 10.49.85.101
+2017-09-01 08:16:50,944 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System]
+2017-09-01 08:16:50,949 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2017-09-01 08:16:51,444 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-09-01 08:16:51,444 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-09-01 08:16:52,238 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
+2017-09-01 08:16:52,858 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
+2017-09-01 08:16:52,887 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
+2017-09-01 08:16:52,914 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-09-01 08:16:52,915 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-09-01 08:16:52,915 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-09-01 08:16:52,915 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-09-01 08:16:52,915 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-09-01 08:16:52,915 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-09-01 08:16:53,291 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2017-09-01 08:16:53,292 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2/bin/proxyserver.jks
+2017-09-01 08:16:53,410 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
+2017-09-01 08:16:53,444 INFO o.a.j.s.FileServer: Default base='/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2/bin'
+2017-09-01 08:16:53,522 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:16:53,522 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
+2017-09-01 08:16:53,626 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
+2017-09-01 08:16:53,654 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
+2017-09-01 08:16:53,802 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-09-01 08:16:53,802 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2017-09-01 08:16:53,802 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-09-01 08:16:53,802 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2017-09-01 08:17:54,603 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: /Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2/bin/templates/templates.xml
+2017-09-01 08:18:08,174 INFO o.a.j.g.a.Load: Loading file: /Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2/bin/templates/mongodb.jmx
+2017-09-01 08:18:08,181 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-09-01 08:18:08,197 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-09-01 08:18:08,198 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-09-01 08:18:08,201 INFO o.a.j.s.SaveService: Loading file: /Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2/bin/templates/mongodb.jmx
+2017-09-01 08:18:08,316 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,374 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,387 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,392 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,400 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,409 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,415 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,425 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,432 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,437 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,441 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,451 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,489 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:18:08,562 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:34,189 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:34,195 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:34,202 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:35,388 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:35,413 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:38,790 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:38,802 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:40,725 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:40,774 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:48,125 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:48,135 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:19:49,833 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:09,204 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,834 INFO o.a.j.g.a.Load: Loading file: /Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2/bin/templates/mongodb.jmx
+2017-09-01 08:20:13,835 INFO o.a.j.s.SaveService: Loading file: /Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter/apache-jmeter-3.2/bin/templates/mongodb.jmx
+2017-09-01 08:20:13,885 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,919 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,926 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,930 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,938 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,948 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,952 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,960 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,966 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,970 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,974 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:13,981 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:14,014 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:20:14,087 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:22:41,929 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:23:09,325 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:23:09,358 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:23:09,370 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:23:13,758 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:23:13,809 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:23:15,701 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:23:15,761 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:23:17,131 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:23:17,215 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:18,834 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:18,881 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:22,284 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:22,308 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:23,830 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:23,876 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:25,298 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:25,340 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:28,688 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:29,338 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:32,037 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:32,117 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:34,399 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:34,450 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:35,976 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:36,069 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:43,995 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:44,076 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:46,487 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:46,511 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:57,837 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:24:57,912 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:25:03,075 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:25:03,088 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:25:38,646 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:25:38,698 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:25:48,101 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:27:38,293 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:30:18,493 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:33:00,925 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:33:03,355 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:58:47,081 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:58:57,554 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 08:59:21,351 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:00:01,164 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:01:44,281 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:01:45,055 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:01:45,059 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:01:45,078 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:01:45,081 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:01:52,307 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:01:52,326 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:01:52,335 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:01:57,805 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:06,385 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:06,388 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:06,396 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:06,399 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:08,188 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:08,202 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:08,205 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:16,430 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:55,003 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:02:55,016 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:07:51,932 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:08:21,703 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:08:21,705 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:13:27,512 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:13:27,670 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:13:31,918 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:13:32,052 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:13:47,616 INFO o.a.j.s.FileServer: Set new base='/Users/jj/Google Drive/ITC/7mo Semestre/Calidad y Pruebas/JMeter'
+2017-09-01 09:13:47,633 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:13:47,634 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:13:47,634 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:13:47,717 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:13:47,747 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:13:47,995 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:13:47,995 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:13:47,995 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:13:47,995 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:13:47,999 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:13:47,999 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:13:48,000 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:13:48,395 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:13:48,395 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:13:48,396 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:13:48,398 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:14:01,942 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:14:01,950 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:14:03,348 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:14:36,802 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:14:54,546 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:14:54,555 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:15:14,878 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:16,995 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:16,999 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:29,575 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:39,329 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:44,113 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:51,054 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:51,056 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:51,511 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:51,581 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:55,088 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:56,290 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:57,382 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:57,387 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:18:57,387 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:18:57,393 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:18:57,569 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:18:57,569 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:18:57,569 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:18:57,569 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:18:57,569 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:18:57,570 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:18:57,570 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:18:57,606 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:18:57,606 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:18:57,606 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:18:57,607 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:18:59,220 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:18:59,248 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:19:00,892 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:19:09,809 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:19:09,815 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:19:24,345 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:19:33,946 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:19:35,607 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:19:55,841 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:19:55,842 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:19:55,846 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:19:55,972 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:19:55,972 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:19:55,972 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:19:55,973 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:19:55,974 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:19:55,975 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:19:55,975 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:19:56,021 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:19:56,021 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:19:56,021 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:19:56,022 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:19:57,423 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:19:57,458 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:19:58,807 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:09,070 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:09,078 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:11,160 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:17,808 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:17,815 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:18,886 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:19,618 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:25,092 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:25,132 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:27,113 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:28,501 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:29,319 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:37,672 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:21:37,673 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:21:37,676 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:21:37,806 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:21:37,806 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:21:37,807 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:21:37,807 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:21:37,807 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:21:37,807 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:21:37,808 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:21:37,884 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:21:37,884 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:21:37,884 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:21:37,885 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:21:38,956 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:38,988 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:40,680 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:48,941 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:48,946 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:51,154 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:53,576 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:53,596 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:54,117 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:58,796 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:21:58,811 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:23:09,849 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:23:14,242 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:23:14,251 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:23:59,658 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:25:19,518 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:25:19,525 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:25:20,107 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:25:54,814 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:25:54,822 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:26:07,288 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:33:55,486 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:33:55,525 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:33:57,607 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:34:00,779 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:34:38,573 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:34:38,573 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:34:38,579 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:34:38,751 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:34:38,751 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:34:38,751 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:34:38,751 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:34:38,752 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:34:38,752 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:34:38,754 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:34:38,813 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script7.groovy: 8: unable to resolve class BasicDBObject.containsField 
+ @ line 8, column 23.
+   BasicDBObject query = new BasicDBObject.containsField("city","N");
+                         ^
+
+1 error
+
+javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script7.groovy: 8: unable to resolve class BasicDBObject.containsField 
+ @ line 8, column 23.
+   BasicDBObject query = new BasicDBObject.containsField("city","N");
+                         ^
+
+1 error
+
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script7.groovy: 8: unable to resolve class BasicDBObject.containsField 
+ @ line 8, column 23.
+   BasicDBObject query = new BasicDBObject.containsField("city","N");
+                         ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:310) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:958) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:605) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:554) ~[groovy-all-2.4.10.jar:2.4.10]
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298) ~[groovy-all-2.4.10.jar:2.4.10]
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268) ~[groovy-all-2.4.10.jar:2.4.10]
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:254) ~[groovy-all-2.4.10.jar:2.4.10]
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:211) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.getScriptClass(GroovyScriptEngineImpl.java:331) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:153) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:34:38,818 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:34:38,818 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:34:38,818 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:34:38,820 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:34:40,033 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:34:40,067 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:34:41,431 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:34:48,013 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:34:48,019 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:34:52,383 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:35:58,855 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:35:58,859 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:36:01,738 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:37:05,134 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:37:05,147 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:37:20,566 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:37:29,566 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:37:45,566 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:37:51,833 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:37:51,835 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:40:13,335 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:41:34,217 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:41:34,218 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:41:34,224 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:41:34,371 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:41:34,372 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:41:34,372 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:41:34,373 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:41:34,374 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:41:34,375 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:41:34,377 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:41:34,536 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script9
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script9
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script9
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script9
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script9.run(Script9.groovy:9) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:41:34,538 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:41:34,538 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:41:34,538 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:41:34,539 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:41:36,698 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:41:36,729 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:41:38,717 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:41:46,046 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:41:46,055 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:41:48,414 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:41:58,313 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:41:58,314 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:41:58,316 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:41:58,448 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:41:58,449 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:41:58,449 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:41:58,449 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:41:58,450 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:41:58,450 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:41:58,451 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:41:58,553 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script11
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script11
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script11
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script11
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script11.run(Script11.groovy:9) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:41:58,554 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:41:58,554 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:41:58,554 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:41:58,555 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:41:59,667 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:41:59,701 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:01,109 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:06,059 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:06,066 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:12,226 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:31,371 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:31,373 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:32,369 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:37,341 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:37,343 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:38,915 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:58,300 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:42:58,300 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:42:58,302 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:42:58,441 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:42:58,441 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:42:58,441 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:42:58,441 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:42:58,441 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:42:58,441 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:42:58,442 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:42:58,509 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 1, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: cursor for class: Script12
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: cursor for class: Script12
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: cursor for class: Script12
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: cursor for class: Script12
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script12.run(Script12.groovy:12) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:42:58,525 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script13
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script13
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script13
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script13
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script13.run(Script13.groovy:9) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:42:58,526 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:42:58,526 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:42:58,527 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:42:58,528 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:42:59,883 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:42:59,913 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:01,101 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:04,285 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:04,290 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:12,335 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:16,113 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:16,115 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:23,795 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:27,429 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:33,823 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:50,357 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:53,119 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:58,176 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:43:58,178 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:44:02,078 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:44:23,091 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:44:23,091 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:44:23,093 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:44:23,239 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:44:23,239 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:44:23,239 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:44:23,239 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:44:23,240 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:44:23,240 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:44:23,241 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:44:23,263 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 1, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script14
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script14
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script14
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script14
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script14.run(Script14.groovy:8) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:44:23,281 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script15
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script15
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script15
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script15
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script15.run(Script15.groovy:9) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:44:23,282 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:44:23,282 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:44:23,282 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:44:23,282 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:44:24,302 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:44:24,329 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:44:25,993 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:44:33,668 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:44:42,028 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:44:51,755 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:45:29,976 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:45:29,977 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:45:32,568 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:45:34,164 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:45:57,845 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:45:57,845 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:45:57,848 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:45:57,988 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:45:57,989 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:45:57,989 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:45:57,989 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:45:57,990 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:45:57,990 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:45:57,992 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:45:58,016 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 1, message: javax.script.ScriptException: javax.script.ScriptException: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '0' with class 'java.lang.Integer' to class 'com.mongodb.DBCursor'
+javax.script.ScriptException: javax.script.ScriptException: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '0' with class 'java.lang.Integer' to class 'com.mongodb.DBCursor'
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '0' with class 'java.lang.Integer' to class 'com.mongodb.DBCursor'
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '0' with class 'java.lang.Integer' to class 'com.mongodb.DBCursor'
+	at org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation.continueCastOnSAM(DefaultTypeTransformation.java:405) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation.continueCastOnNumber(DefaultTypeTransformation.java:319) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation.castToType(DefaultTypeTransformation.java:232) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.castToType(ScriptBytecodeAdapter.java:603) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script16.run(Script16.groovy:10) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:45:58,040 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script17
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script17
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script17
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script17
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script17.run(Script17.groovy:9) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:45:58,041 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:45:58,041 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:45:58,041 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:45:58,042 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:46:02,521 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:46:02,551 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:46:04,090 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:46:27,107 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:46:56,408 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:46:56,409 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:46:56,411 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:46:56,546 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:46:56,547 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:46:56,547 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:46:56,547 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:46:56,547 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:46:56,547 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:46:56,548 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:46:56,571 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 1, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: cursor for class: Script18
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: cursor for class: Script18
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: cursor for class: Script18
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: cursor for class: Script18
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script18.run(Script18.groovy:13) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:46:56,589 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script19
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script19
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script19
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script19
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script19.run(Script19.groovy:9) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:46:56,590 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:46:56,590 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:46:56,590 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:46:56,591 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:46:58,656 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:46:58,687 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:00,478 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:02,450 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:12,824 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:47:12,824 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:47:12,826 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:47:12,955 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:47:12,955 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:47:12,955 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:47:12,955 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:47:12,955 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:47:12,955 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:47:12,956 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:47:13,001 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script21
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script21
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script21
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script21
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script21.run(Script21.groovy:9) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:47:13,003 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:47:13,003 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:47:13,003 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:47:13,005 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:47:14,016 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:14,045 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:15,756 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:19,061 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:19,067 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:20,927 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:22,218 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:26,688 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:33,350 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:47:33,350 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:47:33,353 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:47:33,491 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:47:33,491 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:47:33,491 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:47:33,492 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:47:33,492 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:47:33,493 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:47:33,494 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:47:33,530 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script23
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script23
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script23
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script23
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script23.run(Script23.groovy:9) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:47:33,530 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:47:33,530 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:47:33,531 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:47:33,532 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:47:34,670 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:34,703 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:36,404 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:42,769 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:47:42,774 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:49:51,635 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:49:51,641 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:49:51,641 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:49:51,644 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:49:51,773 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:49:51,773 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:49:51,773 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:49:51,773 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:49:51,774 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:49:51,774 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:49:51,774 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:49:51,826 ERROR o.a.j.p.j.s.JSR223Sampler: Problem in JSR223 script JSR223 Sampler - Query 2, message: javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script25
+javax.script.ScriptException: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script25
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:158) ~[groovy-all-2.4.10.jar:2.4.10]
+	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:233) ~[?:1.8.0_121]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:222) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.java.sampler.JSR223Sampler.sample(JSR223Sampler.java:69) [ApacheJMeter_java.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:491) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:3.2 r1790748]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: javax.script.ScriptException: groovy.lang.MissingPropertyException: No such property: query for class: Script25
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+Caused by: groovy.lang.MissingPropertyException: No such property: query for class: Script25
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307) ~[groovy-all-2.4.10.jar:2.4.10]
+	at Script25.run(Script25.groovy:9) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-all-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:155) ~[groovy-all-2.4.10.jar:2.4.10]
+	... 7 more
+2017-09-01 09:49:51,827 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:49:51,827 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:49:51,827 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:49:51,828 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:49:53,016 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:49:53,047 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:49:55,043 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:49:59,578 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:49:59,583 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:03,017 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:07,350 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:07,376 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:08,362 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:12,164 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:12,165 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:14,144 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:18,020 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:18,047 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:19,215 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:22,305 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:27,679 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:50:27,679 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:50:27,681 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:50:27,821 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:50:27,821 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:50:27,821 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:50:27,821 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:50:27,822 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:50:27,822 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:50:27,822 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:50:27,953 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:50:27,953 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:50:27,954 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:50:27,955 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:50:28,721 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:28,752 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:30,643 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:37,492 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:37,498 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:50:48,497 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:04,896 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:51:04,896 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:51:04,903 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:51:05,048 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:51:05,049 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:51:05,049 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:51:05,049 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:51:05,049 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:51:05,049 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:51:05,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:51:05,160 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:51:05,160 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:51:05,160 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:51:05,161 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:51:06,173 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:06,210 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:07,136 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:14,157 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:14,162 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:26,699 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:37,352 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:51:37,352 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:51:37,354 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:51:37,493 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:51:37,493 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:51:37,493 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:51:37,493 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:51:37,494 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:51:37,494 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:51:37,494 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:51:37,596 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:51:37,596 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:51:37,597 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:51:37,598 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:51:38,546 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:38,581 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:41,148 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:44,445 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:57,448 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:51:57,448 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:51:57,450 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:51:57,578 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:51:57,578 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:51:57,578 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:51:57,578 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:51:57,579 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:51:57,579 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:51:57,580 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:51:57,677 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:51:57,677 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:51:57,677 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:51:57,678 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:51:58,613 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:51:58,644 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:00,714 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:02,173 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:02,178 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:03,679 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:11,577 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:11,580 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:12,792 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:17,302 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:17,308 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:52:56,390 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:04,703 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:09,677 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:14,604 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:53:14,605 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:53:14,608 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:53:14,746 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:53:14,746 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:53:14,746 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:53:14,746 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:53:14,746 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:53:14,746 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:53:14,747 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:53:14,836 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:53:14,836 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:53:14,836 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:53:14,837 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:53:15,692 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:15,740 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:17,687 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:20,290 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:20,295 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:33,374 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:37,526 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-01 09:53:37,526 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-01 09:53:37,529 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2017-09-01 09:53:37,665 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-09-01 09:53:37,665 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2017-09-01 09:53:37,665 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-01 09:53:37,666 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-09-01 09:53:37,666 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-01 09:53:37,666 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-01 09:53:37,667 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-09-01 09:53:37,761 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-09-01 09:53:37,761 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-09-01 09:53:37,761 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-01 09:53:37,763 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2017-09-01 09:53:38,448 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:38,487 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:40,931 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:42,645 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:42,649 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:45,867 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:53:47,163 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:54:10,218 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:55:14,297 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-09-01 09:56:28,765 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
