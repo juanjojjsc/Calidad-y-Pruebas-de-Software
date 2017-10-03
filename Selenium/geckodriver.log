@@ -796,3 +796,181 @@ JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-13/html/contai
 1507040807500	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483728"
 1507040807500	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483801"
 1507040807567	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507041297879	geckodriver	INFO	geckodriver 0.19.0
+1507041297957	geckodriver	INFO	Listening on 127.0.0.1:52381
+1507041300062	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.Eq1R22rgpQ8Z"
+1507041300328	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507041300643	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:35:01.639 plugin-container[1928:322271] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507041301934	Marionette	INFO	Listening on port 52387
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507041302497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507041302527	Marionette	DEBUG	loaded listener.js
+1507041302547	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507041303488	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507041303488	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507041303804	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507041304196	Marionette	DEBUG	Received DOM event "pageshow" for "http://micampus.csf.itesm.mx/index.php/division-de-diseno-ingenieria-y-arquitectura/directorio"
+1507042073752	geckodriver	INFO	geckodriver 0.19.0
+1507042073813	geckodriver	INFO	Listening on 127.0.0.1:52705
+1507042073951	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.CXfzxM72feEv"
+1507042074196	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507042074490	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:47:55.466 plugin-container[1994:353814] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507042075794	Marionette	INFO	Listening on port 52709
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042076410	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042076441	Marionette	DEBUG	loaded listener.js
+1507042076457	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042078117	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042078117	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042079655	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042079774	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042079781	Marionette	DEBUG	Received DOM event "pageshow" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042080244	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042080247	Marionette	DEBUG	Received DOM event "pageshow" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507042080295	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042080304	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042081139	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042079.f55706d840&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042081141	Marionette	DEBUG	Received DOM event "pageshow" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042079.f55706d840&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042081600	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loop11.com/usertest/get-session"
+1507042081602	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loop11.com/usertest/get-session"
+1507042085891	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042121315	geckodriver	INFO	geckodriver 0.19.0
+1507042121384	geckodriver	INFO	Listening on 127.0.0.1:52818
+1507042121515	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.ddaavzrse244"
+1507042121781	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507042122062	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:48:43.020 plugin-container[2014:356477] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507042123282	Marionette	INFO	Listening on port 52822
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042123968	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042124000	Marionette	DEBUG	loaded listener.js
+1507042124047	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042125852	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042125853	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042126882	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042126889	Marionette	DEBUG	Received DOM event "pageshow" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042127291	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042127430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042127443	Marionette	DEBUG	Received DOM event "pageshow" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042127978	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042127987	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507042128138	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loop11.com/usertest/get-session"
+1507042128139	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loop11.com/usertest/get-session"
+1507042128183	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042126.b7bf458211&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042128188	Marionette	DEBUG	Received DOM event "pageshow" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042126.b7bf458211&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042133812	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042185500	geckodriver	INFO	geckodriver 0.19.0
+1507042185566	geckodriver	INFO	Listening on 127.0.0.1:52938
+1507042185698	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.2D7O8yORN0Kl"
+1507042185958	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507042186250	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:49:47.215 plugin-container[2036:360218] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507042187498	Marionette	INFO	Listening on port 52942
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042188161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042188192	Marionette	DEBUG	loaded listener.js
+1507042188211	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042189775	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042189775	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042191212	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042191866	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042191879	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507042192067	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042190.c97a82c8f0&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042192069	Marionette	DEBUG	Received DOM event "pageshow" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042190.c97a82c8f0&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042192984	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loop11.com/usertest/get-session"
+1507042192985	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loop11.com/usertest/get-session"
+1507042193902	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042193910	Marionette	DEBUG	Received DOM event "pageshow" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042194301	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042194303	Marionette	DEBUG	Received DOM event "pageshow" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042197341	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042411101	geckodriver	INFO	geckodriver 0.19.0
+1507042411183	geckodriver	INFO	Listening on 127.0.0.1:53108
+1507042413278	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.yvdUpohBW4U9"
+1507042413551	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507042413847	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:53:34.981 plugin-container[2065:371123] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507042415130	Marionette	INFO	Listening on port 53114
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042415729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042415759	Marionette	DEBUG	loaded listener.js
+1507042415781	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042417018	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042417019	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042418844	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042418984	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042418993	Marionette	DEBUG	Received DOM event "pageshow" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042419447	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042419450	Marionette	DEBUG	Received DOM event "pageshow" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042419596	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042419609	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507042420393	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042418.61d2268b16&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042420395	Marionette	DEBUG	Received DOM event "pageshow" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042418.61d2268b16&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042420565	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loop11.com/usertest/get-session"
+1507042420566	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loop11.com/usertest/get-session"
+1507042424196	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042463655	geckodriver	INFO	geckodriver 0.19.0
+1507042463741	geckodriver	INFO	Listening on 127.0.0.1:53264
+1507042465837	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.iSeG4ERLaVMj"
+1507042466115	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507042466407	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:54:27.391 plugin-container[2094:374390] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507042467728	Marionette	INFO	Listening on port 53270
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042468299	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042468330	Marionette	DEBUG	loaded listener.js
+1507042468349	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042469884	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042469885	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042471019	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042471027	Marionette	DEBUG	Received DOM event "pageshow" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042471290	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042471451	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042471455	Marionette	DEBUG	Received DOM event "pageshow" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042471970	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042471978	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042472078	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loop11.com/usertest/get-session"
+1507042472079	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loop11.com/usertest/get-session"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507042472166	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042470.ea5125b91c&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042472168	Marionette	DEBUG	Received DOM event "pageshow" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042470.ea5125b91c&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042477257	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042548944	geckodriver	INFO	geckodriver 0.19.0
+1507042549029	geckodriver	INFO	Listening on 127.0.0.1:53408
+1507042551133	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.sQjyq7qRIMUe"
+1507042551402	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507042551720	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:55:52.718 plugin-container[2116:379025] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507042553037	Marionette	INFO	Listening on port 53414
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507042553581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507042553612	Marionette	DEBUG	loaded listener.js
+1507042553631	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507042555176	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507042555177	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507042556380	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042556386	Marionette	DEBUG	Received DOM event "pageshow" for "https://a7805371579.cdn.optimizely.com/client_storage/a7805371579.html"
+1507042556585	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042556890	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042556892	Marionette	DEBUG	Received DOM event "pageshow" for "https://7790681961.cdn.optimizely.com/client_storage/7790681961.html"
+1507042557160	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042557170	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507042557433	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042556.0e615a51b6&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042557434	Marionette	DEBUG	Received DOM event "pageshow" for "https://secure.livechatinc.com/licence/7430141/open_chat.cgi?groups=9&embedded=1&newWebserv=undefined&__lc_vv=2&session_id=S1507042556.0e615a51b6&server=secure.livechatinc.com#https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507042558345	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loop11.com/usertest/get-session"
+1507042558347	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loop11.com/usertest/get-session"
+1507042562714	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
