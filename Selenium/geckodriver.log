@@ -1,0 +1,798 @@
+1507034468745	geckodriver	INFO	geckodriver 0.19.0
+1507034468822	geckodriver	INFO	Listening on 127.0.0.1:49491
+1507034472157	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.gs4AicpdjqFL"
+1507034472376	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507034472662	Marionette	INFO	Enabled via --marionette
+2017-10-03 07:41:13.713 plugin-container[947:48239] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507034473857	Marionette	INFO	Listening on port 49498
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507034474199	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507034474236	Marionette	DEBUG	loaded listener.js
+1507034474253	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507034474330	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507034474331	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507034474448	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507034475500	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507034831045	geckodriver	INFO	geckodriver 0.19.0
+1507034831106	geckodriver	INFO	Listening on 127.0.0.1:49527
+1507034834139	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.w4R1wTyqobZh"
+1507034834341	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507034834623	Marionette	INFO	Enabled via --marionette
+2017-10-03 07:47:15.683 plugin-container[974:62037] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507034835831	Marionette	INFO	Listening on port 49534
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507034836188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507034836218	Marionette	DEBUG	loaded listener.js
+1507034871421	geckodriver	INFO	geckodriver 0.19.0
+1507034871487	geckodriver	INFO	Listening on 127.0.0.1:49552
+1507034874515	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.bFRzZqyYUap7"
+1507034874727	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507034875004	Marionette	INFO	Enabled via --marionette
+2017-10-03 07:47:56.083 plugin-container[995:63874] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507034876214	Marionette	INFO	Listening on port 49559
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507034876554	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507034876591	Marionette	DEBUG	loaded listener.js
+1507034876608	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507034876679	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507034876679	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507034876812	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507034877966	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507034917539	geckodriver	INFO	geckodriver 0.19.0
+1507034917601	geckodriver	INFO	Listening on 127.0.0.1:49584
+1507034920637	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.ebJUvJiMrbyC"
+1507034920859	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507034921141	Marionette	INFO	Enabled via --marionette
+2017-10-03 07:48:42.107 plugin-container[1015:65521] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507034922367	Marionette	INFO	Listening on port 49591
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507034922709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507034922743	Marionette	DEBUG	loaded listener.js
+1507034922760	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507034922830	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507034922831	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507034922943	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507034924006	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507035247182	geckodriver	INFO	geckodriver 0.19.0
+1507035247247	geckodriver	INFO	Listening on 127.0.0.1:49628
+1507035250272	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.rNs1x3HxV4cS"
+1507035250485	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507035250765	Marionette	INFO	Enabled via --marionette
+2017-10-03 07:54:11.821 plugin-container[1041:78402] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507035251970	Marionette	INFO	Listening on port 49635
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507035252320	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507035252353	Marionette	DEBUG	loaded listener.js
+1507035252371	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507035252443	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507035252443	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507035252558	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507035253892	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507035424650	geckodriver	INFO	geckodriver 0.19.0
+1507035424712	geckodriver	INFO	Listening on 127.0.0.1:49671
+1507035427740	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.753pAuusy6zn"
+1507035427969	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507035428259	Marionette	INFO	Enabled via --marionette
+2017-10-03 07:57:09.204 plugin-container[1062:85050] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507035429454	Marionette	INFO	Listening on port 49678
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507035429778	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507035429813	Marionette	DEBUG	loaded listener.js
+1507035429836	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507035429915	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507035429915	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507035430036	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507035431151	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507035719313	geckodriver	INFO	geckodriver 0.19.0
+1507035719395	geckodriver	INFO	Listening on 127.0.0.1:49722
+1507035722387	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.24eArNcNy8Kp"
+1507035722625	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507035722919	Marionette	INFO	Enabled via --marionette
+2017-10-03 08:02:03.912 plugin-container[1086:95328] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507035724210	Marionette	INFO	Listening on port 49729
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507035724421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507035724455	Marionette	DEBUG	loaded listener.js
+1507035724472	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507035724547	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507035724547	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507035724675	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507035725922	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507035726266	Marionette	DEBUG	Received DOM event "beforeunload" for "http://nitrowriters.com/form/form.html"
+1507035727755	Marionette	DEBUG	Received DOM event "pagehide" for "http://nitrowriters.com/form/form.html"
+1507035727755	Marionette	DEBUG	Received DOM event "unload" for "http://nitrowriters.com/form/form.html"
+1507035729261	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729319	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729364	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729365	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729366	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729366	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729367	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729368	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729370	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729442	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729466	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729658	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1507035729658	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507035729658	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507035729658	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507035729673	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729677	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729677	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729678	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729679	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729680	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729686	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729688	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729835	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483688"
+1507035729985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729988	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035729993	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035729996	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035730000	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035730001	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035730002	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ads.pubmatic.com/AdServer/js/user_sync.html?r=3307&p=46338&predirect=https%3A%2F%2Fads.servebom.com%2Fpartner%3Fcd%3D3307%26svc%3Dus%26id%3D5%26uid%3D"
+1507035730070	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://b.company-target.com/ect.html"
+1507035730071	Marionette	DEBUG	Received DOM event "pageshow" for "https://b.company-target.com/ect.html"
+1507035730092	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035730113	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035730117	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035730130	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035730187	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?svc=us&id=17&cb=901&uid=pUBmqU9YP4Wm&ev=1&pid=558527&cb=901"
+1507035730211	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1507035730219	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1507035730269	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483699"
+1507035730274	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ssum-sec.casalemedia.com/usermatch?r=10322&s=181869&cb=https:%2F%2Fads.servebom.com%2Fpartner%3Fcb%3D10322%26svc%3Dus%26id%3D2%26uid%3D&C=1"
+1507035730299	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=3678&svc=us&id=41&uid=826459d3-7cc1-4c00-bf85-651d57f0726f"
+1507035730321	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tmn-d.openx.net/w/1.0/afr?cc=1&auid=538535676&cb=3230"
+1507035730333	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tap-secure.rubiconproject.com/partner/scripts/rubicon/emily.html?rtb_ext=1&geo=na&co=us"
+1507035730337	Marionette	DEBUG	Received DOM event "pageshow" for "https://tap-secure.rubiconproject.com/partner/scripts/rubicon/emily.html?rtb_ext=1&geo=na&co=us"
+1507035730366	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035730367	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035730377	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483701"
+1507035730393	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170927/r20170110/zrt_lookup.html#"
+1507035730396	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170927/r20170110/zrt_lookup.html#"
+1507035730538	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=9982&svc=us&id=24&uid=ff0cbe0bf6484b6e18977d9f"
+1507035730570	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507035730573	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035730576	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=1599&svc=us&id=23,25,26,29,33&uid=225983215155908971"
+1507035730580	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cd=10125&svc=us&id=31&uid=014025d3-b549-4080-9654-55ca79185609"
+1507035730580	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=46338&predirect=https%3A%2F%2Fads.servebom.com%2Fpartner%3Fcd%3D3307%26svc%3Dus%26id%3D5%26uid%3D&it=0&np=0"
+1507035730622	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1507035730631	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1507035730634	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1507035730660	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html?n=1"
+1507035730707	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=7476&svc=us&id=14&uid=623734994726376256"
+1507035730708	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507035730709	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507035730710	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://us-u.openx.net/w/1.0/pd?plm=10&ph=25af9286-f23b-4b02-abcd-f2ee3b564dab"
+1507035730727	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cd=3307&svc=us&id=5&uid=4BFC3466-F9F8-48B6-B55B-04B3034389B9"
+1507035730732	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html?n=1"
+1507035730744	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417938&w=300&loeid=38893313&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507035730195&bpp=12&bdt=141&fdt=18&idt=217&shv=r20170927&cbv=r20170110&saldr=aa&correlator=3722883259942&frm=24&ga_vid=1678329220.1507035730&ga_sid=1507035730&ga_hid=313680093&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1689802289&eid=38893303%2C389613005&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=248"
+1507035730767	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507035730769	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507035730771	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9nb29nbGUyd2F5Y20ubmV0bW5nLmNvbS9jbS8_Z29vZ2xlX2dpZD1DQUVTRUZaazg5c1Bibmd5WmNweDJXaWxYbWcmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BSE5GMTNKbUFMV3I4VGxPMmRuem5McDlKWHBqb1R3MzVHNkJhcnVIeGV4S21R,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzSjhzS1hwbm1NWG1mZERiYVhkQ3cxRjhWY1gyUWVk"
+1507035730780	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9hZC5hZnkxMS5uZXQvYWQ_bW9kZT0xMCZzc3BpZD0zNTg1Jmdvb2dsZV9naWQ9Q0FFU0VKVkMxNFpjWk5CVFhwY1NwcUNuZVVzJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QUhORjEzSVY3dFJuN2h0SU5Obnozd20wZngwSXI1SUlncURxMjAzRXB6WUE=,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzSjNjWUxZdTg1SzNkaUNJQTI1RnZPakhjdzBQdmRE"
+1507035730802	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417938&w=300&loeid=38893313&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507035730195&bpp=12&bdt=141&fdt=18&idt=217&shv=r20170927&cbv=r20170110&saldr=aa&correlator=3722883259942&frm=24&ga_vid=1678329220.1507035730&ga_sid=1507035730&ga_hid=313680093&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1689802289&eid=38893303%2C389613005&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=248"
+1507035730861	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417938&w=300&loeid=38893313&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507035730195&bpp=12&bdt=141&fdt=18&idt=217&shv=r20170927&cbv=r20170110&saldr=aa&correlator=3722883259942&frm=24&ga_vid=1678329220.1507035730&ga_sid=1507035730&ga_hid=313680093&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1689802289&eid=38893303%2C389613005&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=248"
+1507035730870	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507035730873	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507035730878	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9zc3VtLXNlYy5jYXNhbGVtZWRpYS5jb20vdXNlcm1hdGNocmVkaXI_cz0xODQwMjMmY2I9aHR0cHMlM0ElMkYlMkZjbS5nLmRvdWJsZWNsaWNrLm5ldCUyRnBpeGVsJTNGZ29vZ2xlX25pZCUzRGluZGV4JTI2Z29vZ2xlX2htJTNEJmdvb2dsZV9naWQ9Q0FFU0VLdTRWQjJnUElENG5IcUVCZF9rX180Jmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QUhORjEzS0Vobm91UjVRenczMzBEamthc0c0T3Y1NnVTbVZ3V3paWHJGWTZSWEk=,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzS1dNeC12dUpzRE1aOTZjU19wbW8xTEJfcG14M2ZW"
+1507035730886	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507035730889	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507035730938	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507035730941	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507035730985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507035730987	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507035731021	Marionette	DEBUG	Received DOM event "pageshow" for "https://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESED1H-ek2m1I9pL4BqfhgMNc&google_cver=1"
+1507035731168	Marionette	DEBUG	Received DOM event "pageshow" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9zc3VtLXNlYy5jYXNhbGVtZWRpYS5jb20vdXNlcm1hdGNocmVkaXI_cz0xODQwMjMmY2I9aHR0cHMlM0ElMkYlMkZjbS5nLmRvdWJsZWNsaWNrLm5ldCUyRnBpeGVsJTNGZ29vZ2xlX25pZCUzRGluZGV4JTI2Z29vZ2xlX2htJTNEJmdvb2dsZV9naWQ9Q0FFU0VLdTRWQjJnUElENG5IcUVCZF9rX180Jmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QUhORjEzS0Vobm91UjVRenczMzBEamthc0c0T3Y1NnVTbVZ3V3paWHJGWTZSWEk=,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzS1dNeC12dUpzRE1aOTZjU19wbW8xTEJfcG14M2ZW"
+1507035731177	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417938&w=300&loeid=38893313&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507035730195&bpp=12&bdt=141&fdt=18&idt=217&shv=r20170927&cbv=r20170110&saldr=aa&correlator=3722883259942&frm=24&ga_vid=1678329220.1507035730&ga_sid=1507035730&ga_hid=313680093&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1689802289&eid=38893303%2C389613005&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=248"
+1507035731180	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417938&w=300&loeid=38893313&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507035730195&bpp=12&bdt=141&fdt=18&idt=217&shv=r20170927&cbv=r20170110&saldr=aa&correlator=3722883259942&frm=24&ga_vid=1678329220.1507035730&ga_sid=1507035730&ga_hid=313680093&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1689802289&eid=38893303%2C389613005&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=248"
+1507035731185	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417938&w=300&loeid=38893313&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507035730195&bpp=12&bdt=141&fdt=18&idt=217&shv=r20170927&cbv=r20170110&saldr=aa&correlator=3722883259942&frm=24&ga_vid=1678329220.1507035730&ga_sid=1507035730&ga_hid=313680093&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1689802289&eid=38893303%2C389613005&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=248"
+1507035731186	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1507035731195	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1507035731200	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417938&w=300&loeid=38893313&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507035730195&bpp=12&bdt=141&fdt=18&idt=217&shv=r20170927&cbv=r20170110&saldr=aa&correlator=3722883259942&frm=24&ga_vid=1678329220.1507035730&ga_sid=1507035730&ga_hid=313680093&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1689802289&eid=38893303%2C389613005&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=248"
+1507035731201	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417938&w=300&loeid=38893313&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507035730195&bpp=12&bdt=141&fdt=18&idt=217&shv=r20170927&cbv=r20170110&saldr=aa&correlator=3722883259942&frm=24&ga_vid=1678329220.1507035730&ga_sid=1507035730&ga_hid=313680093&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1689802289&eid=38893303%2C389613005&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=248"
+1507035731314	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483781"
+1507035731347	Marionette	DEBUG	Received DOM event "pageshow" for "https://ssum-sec.casalemedia.com/usermatch?r=10322&s=181869&cb=https:%2F%2Fads.servebom.com%2Fpartner%3Fcb%3D10322%26svc%3Dus%26id%3D2%26uid%3D&C=1"
+1507035731349	Marionette	DEBUG	Received DOM event "pageshow" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9nb29nbGUyd2F5Y20ubmV0bW5nLmNvbS9jbS8_Z29vZ2xlX2dpZD1DQUVTRUZaazg5c1Bibmd5WmNweDJXaWxYbWcmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BSE5GMTNKbUFMV3I4VGxPMmRuem5McDlKWHBqb1R3MzVHNkJhcnVIeGV4S21R,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzSjhzS1hwbm1NWG1mZERiYVhkQ3cxRjhWY1gyUWVk"
+1507035731355	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html?n=1"
+1507035731384	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035731439	Marionette	DEBUG	Received DOM event "pageshow" for "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI4NDkmdGw9MTI5NjAw&piggybackCookie=c965d70f-a039-4119-991b-7611dbbc4d10"
+1507035731451	Marionette	DEBUG	Received DOM event "pageshow" for "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMzNDImdGw9MTI5NjAw&piggybackCookie=u_fc6dc192-298f-4f2c-869e-d278775dafae"
+1507035731571	Marionette	DEBUG	Received DOM event "pageshow" for "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTQ2MSZ0bD0xNTc2ODAwAAADTqBPUN11_wYaM5VqAAAAAAA"
+1507035731572	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://image4.pubmatic.com/AdServer/SPug?partnerID=156020&xid=3WdOKUipaOekBIYrwcw&"
+1507035731574	Marionette	DEBUG	Received DOM event "pageshow" for "https://image4.pubmatic.com/AdServer/SPug?partnerID=156020&xid=3WdOKUipaOekBIYrwcw&"
+1507035731638	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=46338&predirect=https%3A%2F%2Fads.servebom.com%2Fpartner%3Fcd%3D3307%26svc%3Dus%26id%3D5%26uid%3D&it=0&np=0"
+1507035731640	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.pubmatic.com/AdServer/js/user_sync.html?r=3307&p=46338&predirect=https%3A%2F%2Fads.servebom.com%2Fpartner%3Fcd%3D3307%26svc%3Dus%26id%3D5%26uid%3D"
+1507035731799	Marionette	DEBUG	Received DOM event "pageshow" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9hZC5hZnkxMS5uZXQvYWQ_bW9kZT0xMCZzc3BpZD0zNTg1Jmdvb2dsZV9naWQ9Q0FFU0VKVkMxNFpjWk5CVFhwY1NwcUNuZVVzJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QUhORjEzSVY3dFJuN2h0SU5Obnozd20wZngwSXI1SUlncURxMjAzRXB6WUE=,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzSjNjWUxZdTg1SzNkaUNJQTI1RnZPakhjdzBQdmRE"
+1507035731805	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html?n=1"
+1507035731816	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507035732308	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=3379&svc=us&id=20&uid=uid%3DE79EBF4FB4084671961F11E9067195AA"
+1507035732419	Marionette	DEBUG	Received DOM event "pageshow" for "https://us-u.openx.net/w/1.0/pd?plm=10&ph=25af9286-f23b-4b02-abcd-f2ee3b564dab"
+1507035732421	Marionette	DEBUG	Received DOM event "pageshow" for "https://tmn-d.openx.net/w/1.0/afr?cc=1&auid=538535676&cb=3230"
+1507035732440	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+1507036072346	geckodriver	INFO	geckodriver 0.19.0
+1507036072411	geckodriver	INFO	Listening on 127.0.0.1:49944
+1507036075447	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.JVNIOb4vp21d"
+1507036075669	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507036075947	Marionette	INFO	Enabled via --marionette
+2017-10-03 08:07:56.890 plugin-container[1107:106684] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507036077188	Marionette	INFO	Listening on port 49951
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507036077486	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507036077522	Marionette	DEBUG	loaded listener.js
+1507036077538	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507036077625	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507036077625	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507036077736	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507036078864	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+1507036542945	geckodriver	INFO	geckodriver 0.19.0
+1507036543034	geckodriver	INFO	Listening on 127.0.0.1:50052
+1507036546030	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.f67B9mGvbYiE"
+1507036546257	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507036546555	Marionette	INFO	Enabled via --marionette
+2017-10-03 08:15:47.554 plugin-container[1145:123060] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507036547838	Marionette	INFO	Listening on port 50061
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507036548049	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507036548082	Marionette	DEBUG	loaded listener.js
+1507036548099	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507036548187	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507036548187	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507036548297	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507036549364	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+1507038135942	geckodriver	INFO	geckodriver 0.19.0
+1507038136022	geckodriver	INFO	Listening on 127.0.0.1:50135
+1507038139020	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.VHW0NO9IkNlB"
+1507038139254	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507038139555	Marionette	INFO	Enabled via --marionette
+2017-10-03 08:42:20.536 plugin-container[1189:143625] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507038140802	Marionette	INFO	Listening on port 50142
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507038141049	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507038141084	Marionette	DEBUG	loaded listener.js
+1507038141102	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507038141190	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507038141190	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507038141301	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507038142386	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+1507038511400	geckodriver	INFO	geckodriver 0.19.0
+1507038511482	geckodriver	INFO	Listening on 127.0.0.1:50208
+1507038514485	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.k0lMFO7BId0s"
+1507038514718	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507038515012	Marionette	INFO	Enabled via --marionette
+2017-10-03 08:48:35.988 plugin-container[1212:157992] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507038516280	Marionette	INFO	Listening on port 50215
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507038516518	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507038516551	Marionette	DEBUG	loaded listener.js
+1507038516570	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507038516681	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507038516681	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507038516803	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507038518055	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+1507038704276	geckodriver	INFO	geckodriver 0.19.0
+1507038704345	geckodriver	INFO	Listening on 127.0.0.1:50280
+1507038707378	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.KUIu5wQi6MR5"
+1507038707620	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507038707924	Marionette	INFO	Enabled via --marionette
+2017-10-03 08:51:48.906 plugin-container[1232:168008] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507038709197	Marionette	INFO	Listening on port 50287
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507038709411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507038709444	Marionette	DEBUG	loaded listener.js
+1507038709460	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507038709544	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507038709545	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507038709662	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507038710762	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507038743370	geckodriver	INFO	geckodriver 0.19.0
+1507038743449	geckodriver	INFO	Listening on 127.0.0.1:50355
+1507038746455	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.8n8EXz1dpvOb"
+1507038746685	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507038746997	Marionette	INFO	Enabled via --marionette
+2017-10-03 08:52:27.984 plugin-container[1254:170444] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507038748299	Marionette	INFO	Listening on port 50362
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507038748493	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507038748529	Marionette	DEBUG	loaded listener.js
+1507038748548	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507038748625	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507038748625	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507038748749	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507038749837	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507038919163	geckodriver	INFO	geckodriver 0.19.0
+1507038919244	geckodriver	INFO	Listening on 127.0.0.1:50439
+1507038922236	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.Vn6sVaLa3Jdv"
+1507038922479	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507038922765	Marionette	INFO	Enabled via --marionette
+2017-10-03 08:55:23.719 plugin-container[1303:179908] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507038923994	Marionette	INFO	Listening on port 50446
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507038924269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507038924300	Marionette	DEBUG	loaded listener.js
+1507038924318	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507038924419	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507038924419	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507038924546	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507038925631	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+JavaScript error: resource://gre/modules/InlineSpellCheckerContent.jsm, line 56: TypeError: realSpellChecker is null
+1507039199946	geckodriver	INFO	geckodriver 0.19.0
+1507039200010	geckodriver	INFO	Listening on 127.0.0.1:50526
+1507039203043	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.o3nywhRYRtWp"
+1507039203251	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507039203542	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:00:04.592 plugin-container[1328:194259] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507039204748	Marionette	INFO	Listening on port 50533
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507039205078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507039205112	Marionette	DEBUG	loaded listener.js
+1507039205129	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507039205287	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507039205287	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507039205406	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507039206415	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507039268145	geckodriver	INFO	geckodriver 0.19.0
+1507039268206	geckodriver	INFO	Listening on 127.0.0.1:50615
+1507039271237	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.80bIgmxyux6U"
+1507039271446	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507039271736	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:01:12.672 plugin-container[1350:198641] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507039272936	Marionette	INFO	Listening on port 50622
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507039273268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507039273300	Marionette	DEBUG	loaded listener.js
+1507039273316	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507039273430	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507039273431	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507039273572	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507039274639	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507039288289	geckodriver	INFO	geckodriver 0.19.0
+1507039288351	geckodriver	INFO	Listening on 127.0.0.1:50700
+1507039291381	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.2rdTHcTVHHYs"
+1507039291591	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507039291881	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:01:32.957 plugin-container[1370:199886] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507039293108	Marionette	INFO	Listening on port 50707
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507039293519	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507039293550	Marionette	DEBUG	loaded listener.js
+1507039293572	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507039293678	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507039293678	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507039293923	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507039303650	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507039471288	geckodriver	INFO	geckodriver 0.19.0
+1507039471354	geckodriver	INFO	Listening on 127.0.0.1:50794
+1507039471485	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.WCV1LpahVEw6"
+1507039471695	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507039471991	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:04:33.053 plugin-container[1390:210468] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507039473190	Marionette	INFO	Listening on port 50798
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507039473933	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507039473968	Marionette	DEBUG	loaded listener.js
+1507039474017	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507039474108	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507039474109	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507039474225	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507039475351	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+JavaScript error: resource://gre/modules/InlineSpellCheckerContent.jsm, line 56: TypeError: realSpellChecker is null
+1507039673932	geckodriver	INFO	geckodriver 0.19.0
+1507039673999	geckodriver	INFO	Listening on 127.0.0.1:50885
+1507039674131	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.jyJ9lzby6NN9"
+1507039674362	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507039674662	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:07:55.633 plugin-container[1413:220350] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507039675898	Marionette	INFO	Listening on port 50889
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507039676576	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507039676609	Marionette	DEBUG	loaded listener.js
+1507039676629	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507039676735	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507039676736	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507039676859	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507039678108	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507039700811	geckodriver	INFO	geckodriver 0.19.0
+1507039700895	geckodriver	INFO	Listening on 127.0.0.1:50974
+1507039701039	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.V3sK4dx20SOc"
+1507039701281	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507039701592	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:08:22.558 plugin-container[1435:221717] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507039702824	Marionette	INFO	Listening on port 50978
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507039703488	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507039703525	Marionette	DEBUG	loaded listener.js
+1507039703545	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507039703625	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507039703625	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507039703747	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507039704849	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507039763636	geckodriver	INFO	geckodriver 0.19.0
+1507039763720	geckodriver	INFO	Listening on 127.0.0.1:51064
+1507039765811	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.h6qLoLdbejnZ"
+1507039766046	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507039766361	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:09:27.341 plugin-container[1456:224424] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507039767674	Marionette	INFO	Listening on port 51070
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507039768262	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507039768296	Marionette	DEBUG	loaded listener.js
+1507039768314	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507039768416	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507039768416	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507039768551	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507039769858	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507039972610	geckodriver	INFO	geckodriver 0.19.0
+1507039972692	geckodriver	INFO	Listening on 127.0.0.1:51163
+1507039974797	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.is29m6zunYWj"
+1507039975047	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507039975342	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:12:56.354 plugin-container[1478:234723] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507039976757	Marionette	INFO	Listening on port 51169
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507039977244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507039977277	Marionette	DEBUG	loaded listener.js
+1507039977295	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507039977465	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507039977466	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507039977609	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507039979480	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507039991122	geckodriver	INFO	geckodriver 0.19.0
+1507039991186	geckodriver	INFO	Listening on 127.0.0.1:51257
+1507039991314	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.BCo6zEiTid1H"
+1507039991554	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507039991861	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:13:12.853 plugin-container[1498:235943] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507039993117	Marionette	INFO	Listening on port 51261
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507039993763	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507039993799	Marionette	DEBUG	loaded listener.js
+1507039993833	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507039993914	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507039993914	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507039994082	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507039995231	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507040003957	geckodriver	INFO	geckodriver 0.19.0
+1507040004036	geckodriver	INFO	Listening on 127.0.0.1:51348
+1507040004160	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.eW6skdZeAwak"
+1507040004391	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507040004699	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:13:25.823 plugin-container[1518:236787] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507040005964	Marionette	INFO	Listening on port 51352
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507040006603	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507040006638	Marionette	DEBUG	loaded listener.js
+1507040006658	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507040006751	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507040006751	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507040006889	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507040008076	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507040039540	geckodriver	INFO	geckodriver 0.19.0
+1507040039621	geckodriver	INFO	Listening on 127.0.0.1:51440
+1507040041734	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.qJSbHzC4NTnS"
+1507040041967	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507040042280	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:14:03.300 plugin-container[1538:239239] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507040043634	Marionette	INFO	Listening on port 51446
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507040044180	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507040044216	Marionette	DEBUG	loaded listener.js
+1507040044235	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507040044313	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507040044314	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507040044459	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507040045783	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507040106017	geckodriver	INFO	geckodriver 0.19.0
+1507040106103	geckodriver	INFO	Listening on 127.0.0.1:51536
+1507040108206	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.rhR9xoMNrocr"
+1507040108446	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507040108750	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:15:09.776 plugin-container[1560:243722] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507040110065	Marionette	INFO	Listening on port 51542
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507040110664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507040110698	Marionette	DEBUG	loaded listener.js
+1507040110717	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507040110801	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507040110802	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507040110936	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507040112152	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507040165470	geckodriver	INFO	geckodriver 0.19.0
+1507040165555	geckodriver	INFO	Listening on 127.0.0.1:51630
+1507040167655	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.ErxUlJv7pTHF"
+1507040167889	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507040168212	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:16:09.236 plugin-container[1580:247649] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507040169551	Marionette	INFO	Listening on port 51636
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507040170107	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507040170139	Marionette	DEBUG	loaded listener.js
+1507040170158	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507040170249	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507040170250	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507040170373	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507040171752	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507040511919	geckodriver	INFO	geckodriver 0.19.0
+1507040512002	geckodriver	INFO	Listening on 127.0.0.1:51736
+1507040512208	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.bdGyXUNAtfGe"
+1507040512461	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507040512772	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:21:53.833 plugin-container[1609:268830] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507040514129	Marionette	INFO	Listening on port 51740
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507040514658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507040514692	Marionette	DEBUG	loaded listener.js
+1507040514711	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507040514803	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507040514804	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507040514982	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507040516141	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507040582806	geckodriver	INFO	geckodriver 0.19.0
+1507040582879	geckodriver	INFO	Listening on 127.0.0.1:51833
+1507040583003	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.Phila1Wr8S19"
+1507040583232	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507040583555	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:23:04.595 plugin-container[1633:273605] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507040584874	Marionette	INFO	Listening on port 51837
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507040585451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507040585485	Marionette	DEBUG	loaded listener.js
+1507040585504	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507040585597	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507040585597	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507040585732	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507040586844	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507040613029	geckodriver	INFO	geckodriver 0.19.0
+1507040613118	geckodriver	INFO	Listening on 127.0.0.1:51932
+1507040615222	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.NDPxjd4p2Knv"
+1507040615466	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507040615773	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:23:36.967 plugin-container[1653:275888] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507040617122	Marionette	INFO	Listening on port 51938
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507040617667	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507040617701	Marionette	DEBUG	loaded listener.js
+1507040617719	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507040617806	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507040617806	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507040617926	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507040619540	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507040765693	geckodriver	INFO	geckodriver 0.19.0
+1507040765788	geckodriver	INFO	Listening on 127.0.0.1:52041
+1507040767893	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.uESeTgVEdhhX"
+1507040768173	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507040768494	Marionette	INFO	Enabled via --marionette
+2017-10-03 09:26:09.560 plugin-container[1673:285624] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507040769895	Marionette	INFO	Listening on port 52047
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1507040770343	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507040770377	Marionette	DEBUG	loaded listener.js
+1507040770404	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507040770498	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507040770499	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507040770636	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507040771830	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
+1507040772910	Marionette	DEBUG	Received DOM event "beforeunload" for "http://nitrowriters.com/form/form.html"
+1507040774668	Marionette	DEBUG	Received DOM event "pagehide" for "http://nitrowriters.com/form/form.html"
+1507040774669	Marionette	DEBUG	Received DOM event "unload" for "http://nitrowriters.com/form/form.html"
+1507040776139	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040776201	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040776217	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040776220	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040776221	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040776221	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040776222	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040776228	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040776229	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040776455	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ads.pubmatic.com/AdServer/js/user_sync.html?r=5887&p=46338&predirect=https%3A%2F%2Fads.servebom.com%2Fpartner%3Fcd%3D5887%26svc%3Dus%26id%3D5%26uid%3D"
+1507040776504	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://b.company-target.com/ect.html"
+1507040776510	Marionette	DEBUG	Received DOM event "pageshow" for "https://b.company-target.com/ect.html"
+1507040776600	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tap-secure.rubiconproject.com/partner/scripts/rubicon/emily.html?rtb_ext=1&geo=na&co=us"
+1507040776602	Marionette	DEBUG	Received DOM event "pageshow" for "https://tap-secure.rubiconproject.com/partner/scripts/rubicon/emily.html?rtb_ext=1&geo=na&co=us"
+1507040776954	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1507040776954	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507040776955	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507040776955	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507040777154	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?svc=us&id=17&cb=5151&uid=PE98Rrt3Kn7Q&ev=1&pid=558527&cb=5151"
+1507040777211	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040777232	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040777238	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=5618&svc=us&id=23,25,26,29,33&uid=7999681781950195599"
+1507040777241	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=8630&svc=us&id=41&uid=456c59d3-9886-4a00-864c-2dbc34fb5314"
+1507040777277	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040777304	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040777313	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040777352	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040777352	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040777352	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040777353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ssum-sec.casalemedia.com/usermatch?r=8920&s=181869&cb=https:%2F%2Fads.servebom.com%2Fpartner%3Fcb%3D8920%26svc%3Dus%26id%3D2%26uid%3D&C=1"
+1507040777354	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=46338&predirect=https%3A%2F%2Fads.servebom.com%2Fpartner%3Fcd%3D5887%26svc%3Dus%26id%3D5%26uid%3D&it=0&np=0"
+1507040777385	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483696"
+1507040777398	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tmn-d.openx.net/w/1.0/afr?cc=1&auid=538535676&cb=2246"
+1507040777435	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cd=761&svc=us&id=31&uid=e69d31d1-6afc-48f1-8148-2294fff2ef0c"
+1507040777491	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040777501	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040777748	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cd=5887&svc=us&id=5&uid=32B837D9-81FC-4E9A-A52A-126116BDE2D1"
+1507040777760	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040777762	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040777777	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040777779	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040777799	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040777800	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040777804	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://us-u.openx.net/w/1.0/pd?plm=10&ph=25af9286-f23b-4b02-abcd-f2ee3b564dab"
+1507040777842	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://cdn-sec.optmd.com/blank.html"
+1507040777846	Marionette	DEBUG	Received DOM event "pageshow" for "https://cdn-sec.optmd.com/blank.html"
+1507040777875	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=4954&svc=us&id=14&uid=8590190051600202129"
+1507040777984	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040778068	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483731"
+1507040778129	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483730"
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html?n=1#eid=21060374, line 10: SyntaxError: illegal character
+1507040778230	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040778233	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040778244	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040778247	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040778448	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html"
+1507040778506	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html?n=1#eid=21060374"
+1507040778518	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html"
+1507040778526	Marionette	DEBUG	Received DOM event "pageshow" for "https://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESEHdPO7GpUIimFehqgfzGmA8&google_cver=1"
+1507040778622	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html?n=1#eid=21060374"
+1507040778659	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507040778665	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507040778671	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9hcC5saWppdC5jb20vZHNwL2dvb2dsZS9waXhlbG1hdGNoP2dvb2dsZV9naWQ9Q0FFU0VFYUhlQzZ4czUyZjB3NEpSbmZ3UTdzJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QUhORjEzS2x2Q2dvcDBOS1FQWTR2LTgwajJNSDJSZEJDdWFiSVZtUTNCWjNiZw==,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzTG0tY1RtNmxRbEpESnpRYXRpMU5CNDRYRjFucHhD"
+1507040778691	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507040778695	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+1507040778696	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html"
+1507040778699	Marionette	DEBUG	Received DOM event "pageshow" for "https://acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html"
+1507040778701	Marionette	DEBUG	Received DOM event "pageshow" for "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMzNDImdGw9MTI5NjAw&piggybackCookie=u_6c1cae1f-c33e-4486-b26b-00b2680e9075"
+1507040778703	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://um2.eqads.com/um/cs"
+1507040778749	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170927/r20170110/zrt_lookup.html#"
+1507040778756	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170927/r20170110/zrt_lookup.html#"
+1507040778760	Marionette	DEBUG	Received DOM event "pageshow" for "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTQ2MSZ0bD0xNTc2ODAwAAADR4VSFYBu7QZC_dWxAAAAAAA"
+1507040778762	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9wLnJmaWh1Yi5jb20vY20_aW49MSZwdWI9NDQ1Jmdvb2dsZV9naWQ9Q0FFU0VJQUJ3d2YyazBKc1JKMjJjeTAyMDFzJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QUhORjEzS0lWaXNMMlpPdUx0QU9adV9KaGV2QWg1cmpZRTBDME1yamdqTzY=,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzTG13UlVSZ2ExOE9JNmczSFVyVFhmeGE3RVlVXy1q"
+1507040778794	Marionette	DEBUG	Received DOM event "pageshow" for "https://um2.eqads.com/um/cs"
+1507040778796	Marionette	DEBUG	Received DOM event "pageshow" for "https://ssum-sec.casalemedia.com/usermatch?r=8920&s=181869&cb=https:%2F%2Fads.servebom.com%2Fpartner%3Fcb%3D8920%26svc%3Dus%26id%3D2%26uid%3D&C=1"
+1507040778815	Marionette	DEBUG	Received DOM event "pageshow" for "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI4NDkmdGw9MTI5NjAw&piggybackCookie=a59fc092-3b8c-4a5b-997d-f69e9d93d539"
+1507040778821	Marionette	DEBUG	Received DOM event "pageshow" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9hcC5saWppdC5jb20vZHNwL2dvb2dsZS9waXhlbG1hdGNoP2dvb2dsZV9naWQ9Q0FFU0VFYUhlQzZ4czUyZjB3NEpSbmZ3UTdzJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QUhORjEzS2x2Q2dvcDBOS1FQWTR2LTgwajJNSDJSZEJDdWFiSVZtUTNCWjNiZw==,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzTG0tY1RtNmxRbEpESnpRYXRpMU5CNDRYRjFucHhD"
+1507040778905	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=1096&svc=us&id=24&uid=2aee7254db6ecc161fca20a1"
+1507040778922	Marionette	DEBUG	Received DOM event "pageshow" for "https://pagead2.googlesyndication.com/pagead/s/cookie_push.html#aHR0cHM6Ly9wLnJmaWh1Yi5jb20vY20_aW49MSZwdWI9NDQ1Jmdvb2dsZV9naWQ9Q0FFU0VJQUJ3d2YyazBKc1JKMjJjeTAyMDFzJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QUhORjEzS0lWaXNMMlpPdUx0QU9adV9KaGV2QWg1cmpZRTBDME1yamdqTzY=,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzTG13UlVSZ2ExOE9JNmczSFVyVFhmeGE3RVlVXy1q"
+1507040778946	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507040778949	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507040778958	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html?n=1#eid=21060374"
+1507040778961	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://image4.pubmatic.com/AdServer/SPug?partnerID=156020&xid=3WdOeCQqSmhwBFJ-vtg&"
+1507040778962	Marionette	DEBUG	Received DOM event "pageshow" for "https://image4.pubmatic.com/AdServer/SPug?partnerID=156020&xid=3WdOeCQqSmhwBFJ-vtg&"
+1507040778996	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040779008	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507040779010	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/drt/si"
+1507040779014	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html?n=1#eid=21060374"
+1507040779021	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040779178	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html"
+1507040779235	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html"
+1507040779237	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html"
+1507040779339	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://cdn.w55c.net/i/s_0RRFr4nR2D_128842607.html?wp_exchange=0.018182&rtbhost=rtb03-c.us.dataxu.net&rts=1&btid=NDAxMDkzMDQ2NTQzNTk3MzE2OHxBRkQ2MEJyOExIfDE1MDcwNDA3NzUyMTh8ODQ4MzI0Mjk5MzA1NTU0OTZ8MEZoajdnVUxkR3wwUlJGcjRuUjJEfC0xNDE4NTg1MTY5X0dFTl9FWHwyMzUwNHx8fHwxNy4wUHxVU0Q&ei=APPNEXUS&psid=MTE0&js=0&ob=0&ccw=SUFCMTkjMC4xODYyMjMzNHxJQUI2LTQjMC4xODYyMjMzNHxJQUIxIzAuMTI4NTg4ODN8SUFCOS0xNSMwLjA2NjM3NTYzNnxJQUIxLTEjMC4wNjYzNzU2MzZ8SUFCMyMwLjA2NDQ2NzAwNXxJQUI1LTMjMC4wNTQ1NDgyMjN8SUFCOS0xIzAuMDU0NTQ4MjIzfElBQjEtMyMwLjA1NDU0ODIyM3xJQUIxOS02IzAuMDM2NTk4OTg0fElBQjUjMC4wfElBQjYjMC4wfElBQjkjMC4w&ci=0CJicxQ0rj&fiu=MEZoajdnVUxkRw&sd=sitepoint.com&s=http%3A%2F%2Fsitepoint.com&ts=1507040775237&dvt=1&dvdp=tps30.doubleverify.com/visit.jpg&ai=0DA1zJOzsl&c=MX&r=09&m=0&pc=06300&rnd=1218246662291446&mi=d2Vi&epid=QVAxNjEzLTEwNzAxODc&esid=QVAzMDU2NjMy&ct=b126c92c760c4964ba6058483a07fa14&os=Mm8wMDAx&dc=NzI4NWEyMmNjZmE2NGM1Y2JmMzBmYzExNmQzNGFhNGU&dv=MUxMV2p4SWE0Zw&dm=MU1hWjlXU2g0Mg&dt=2dt0005&l=ZW58ZW58&mt=2cmt0001&ri=2r0000&v=1&euid=MDg4MzM0ZmNkZThhYTQ2MzExYmFiZjA1NTdiMWI4ZGNjYjQyOTU5MV9HRU4&mt=2cmt0001&mi=d2Vi"
+1507040779534	Marionette	DEBUG	Received DOM event "pageshow" for "https://cdn.w55c.net/i/s_0RRFr4nR2D_128842607.html?wp_exchange=0.018182&rtbhost=rtb03-c.us.dataxu.net&rts=1&btid=NDAxMDkzMDQ2NTQzNTk3MzE2OHxBRkQ2MEJyOExIfDE1MDcwNDA3NzUyMTh8ODQ4MzI0Mjk5MzA1NTU0OTZ8MEZoajdnVUxkR3wwUlJGcjRuUjJEfC0xNDE4NTg1MTY5X0dFTl9FWHwyMzUwNHx8fHwxNy4wUHxVU0Q&ei=APPNEXUS&psid=MTE0&js=0&ob=0&ccw=SUFCMTkjMC4xODYyMjMzNHxJQUI2LTQjMC4xODYyMjMzNHxJQUIxIzAuMTI4NTg4ODN8SUFCOS0xNSMwLjA2NjM3NTYzNnxJQUIxLTEjMC4wNjYzNzU2MzZ8SUFCMyMwLjA2NDQ2NzAwNXxJQUI1LTMjMC4wNTQ1NDgyMjN8SUFCOS0xIzAuMDU0NTQ4MjIzfElBQjEtMyMwLjA1NDU0ODIyM3xJQUIxOS02IzAuMDM2NTk4OTg0fElBQjUjMC4wfElBQjYjMC4wfElBQjkjMC4w&ci=0CJicxQ0rj&fiu=MEZoajdnVUxkRw&sd=sitepoint.com&s=http%3A%2F%2Fsitepoint.com&ts=1507040775237&dvt=1&dvdp=tps30.doubleverify.com/visit.jpg&ai=0DA1zJOzsl&c=MX&r=09&m=0&pc=06300&rnd=1218246662291446&mi=d2Vi&epid=QVAxNjEzLTEwNzAxODc&esid=QVAzMDU2NjMy&ct=b126c92c760c4964ba6058483a07fa14&os=Mm8wMDAx&dc=NzI4NWEyMmNjZmE2NGM1Y2JmMzBmYzExNmQzNGFhNGU&dv=MUxMV2p4SWE0Zw&dm=MU1hWjlXU2g0Mg&dt=2dt0005&l=ZW58ZW58&mt=2cmt0001&ri=2r0000&v=1&euid=MDg4MzM0ZmNkZThhYTQ2MzExYmFiZjA1NTdiMWI4ZGNjYjQyOTU5MV9HRU4&mt=2cmt0001&mi=d2Vi"
+1507040779630	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417939&w=300&loeid=38893312&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507040778420&bpp=22&bdt=278&fdt=30&idt=703&shv=r20170927&cbv=r20170110&saldr=aa&correlator=4407626997238&rume=1&frm=24&ga_vid=1117915634.1507040779&ga_sid=1507040779&ga_hid=1094585741&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1250969331&eid=21060549%2C21060978%2C38893302%2C21060976&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=736"
+1507040779719	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://cm.g.doubleclick.net/push?client=ca-pub-9454946816537646&srn=gdn"
+1507040779773	Marionette	DEBUG	Received DOM event "pageshow" for "https://us-u.openx.net/w/1.0/pd?plm=10&ph=25af9286-f23b-4b02-abcd-f2ee3b564dab"
+1507040779775	Marionette	DEBUG	Received DOM event "pageshow" for "https://tmn-d.openx.net/w/1.0/afr?cc=1&auid=538535676&cb=2246"
+1507040779859	Marionette	DEBUG	Received DOM event "pageshow" for "https://m.adnxs.com/mapuid?member=280&user=11D6932837E66407297B983833E66736;"
+1507040779906	Marionette	DEBUG	Received DOM event "pageshow" for "https://cm.g.doubleclick.net/push?client=ca-pub-9454946816537646&srn=gdn"
+1507040779917	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417939&w=300&loeid=38893312&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507040778420&bpp=22&bdt=278&fdt=30&idt=703&shv=r20170927&cbv=r20170110&saldr=aa&correlator=4407626997238&rume=1&frm=24&ga_vid=1117915634.1507040779&ga_sid=1507040779&ga_hid=1094585741&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1250969331&eid=21060549%2C21060978%2C38893302%2C21060976&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=736"
+1507040779923	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417939&w=300&loeid=38893312&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507040778420&bpp=22&bdt=278&fdt=30&idt=703&shv=r20170927&cbv=r20170110&saldr=aa&correlator=4407626997238&rume=1&frm=24&ga_vid=1117915634.1507040779&ga_sid=1507040779&ga_hid=1094585741&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1250969331&eid=21060549%2C21060978%2C38893302%2C21060976&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=736"
+1507040779925	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html"
+1507040779934	Marionette	DEBUG	Received DOM event "pageshow" for "https://tpc.googlesyndication.com/safeframe/1-0-13/html/container.html"
+1507040779939	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417939&w=300&loeid=38893312&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507040778420&bpp=22&bdt=278&fdt=30&idt=703&shv=r20170927&cbv=r20170110&saldr=aa&correlator=4407626997238&rume=1&frm=24&ga_vid=1117915634.1507040779&ga_sid=1507040779&ga_hid=1094585741&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1250969331&eid=21060549%2C21060978%2C38893302%2C21060976&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=736"
+1507040779940	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9454946816537646&output=html&h=600&slotname=5015324098&adk=3677630892&adf=2751417939&w=300&loeid=38893312&format=300x600&url=https%3A%2F%2Fwww.sitepoint.com%2F&ea=0&flash=0&wgl=1&dt=1507040778420&bpp=22&bdt=278&fdt=30&idt=703&shv=r20170927&cbv=r20170110&saldr=aa&correlator=4407626997238&rume=1&frm=24&ga_vid=1117915634.1507040779&ga_sid=1507040779&ga_hid=1094585741&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=-300&u_his=2&u_java=0&u_h=900&u_w=1440&u_ah=877&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=300&ish=600&ifk=1250969331&eid=21060549%2C21060978%2C38893302%2C21060976&oid=3&nmo=1&zm=4.26&rx=0&eae=2&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C789%2C300%2C600&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=u&pfx=0&fu=16&bc=1&ifi=1&dtd=736"
+1507040779974	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://cdn3.doubleverify.com/t2tv7.html"
+1507040779977	Marionette	DEBUG	Received DOM event "pageshow" for "https://cdn3.doubleverify.com/t2tv7.html"
+1507040780075	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483798"
+1507040780109	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://cdn.w55c.net/i/s_0RRFr4nR2D_128842607.html?wp_exchange=0.018182&rtbhost=rtb03-c.us.dataxu.net&rts=1&btid=NDAxMDkzMDQ2NTQzNTk3MzE2OHxBRkQ2MEJyOExIfDE1MDcwNDA3NzUyMTh8ODQ4MzI0Mjk5MzA1NTU0OTZ8MEZoajdnVUxkR3wwUlJGcjRuUjJEfC0xNDE4NTg1MTY5X0dFTl9FWHwyMzUwNHx8fHwxNy4wUHxVU0Q&ei=APPNEXUS&psid=MTE0&js=0&ob=0&ccw=SUFCMTkjMC4xODYyMjMzNHxJQUI2LTQjMC4xODYyMjMzNHxJQUIxIzAuMTI4NTg4ODN8SUFCOS0xNSMwLjA2NjM3NTYzNnxJQUIxLTEjMC4wNjYzNzU2MzZ8SUFCMyMwLjA2NDQ2NzAwNXxJQUI1LTMjMC4wNTQ1NDgyMjN8SUFCOS0xIzAuMDU0NTQ4MjIzfElBQjEtMyMwLjA1NDU0ODIyM3xJQUIxOS02IzAuMDM2NTk4OTg0fElBQjUjMC4wfElBQjYjMC4wfElBQjkjMC4w&ci=0CJicxQ0rj&fiu=MEZoajdnVUxkRw&sd=sitepoint.com&s=http%3A%2F%2Fsitepoint.com&ts=1507040775237&dvt=1&dvdp=tps30.doubleverify.com/visit.jpg&ai=0DA1zJOzsl&c=MX&r=09&m=0&pc=06300&rnd=1218246662291446&mi=d2Vi&epid=QVAxNjEzLTEwNzAxODc&esid=QVAzMDU2NjMy&ct=b126c92c760c4964ba6058483a07fa14&os=Mm8wMDAx&dc=NzI4NWEyMmNjZmE2NGM1Y2JmMzBmYzExNmQzNGFhNGU&dv=MUxMV2p4SWE0Zw&dm=MU1hWjlXU2g0Mg&dt=2dt0005&l=ZW58ZW58&mt=2cmt0001&ri=2r0000&v=1&euid=MDg4MzM0ZmNkZThhYTQ2MzExYmFiZjA1NTdiMWI4ZGNjYjQyOTU5MV9HRU4&mt=2cmt0001&mi=d2Vi"
+1507040780316	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.servebom.com/partner?cb=6480&svc=us&id=20&uid=uid%3D1946AEF45EEA4903B2FA02A7421BBAC6"
+1507040780322	Marionette	DEBUG	Received DOM event "pageshow" for "https://cdn.w55c.net/i/s_0RRFr4nR2D_128842607.html?wp_exchange=0.018182&rtbhost=rtb03-c.us.dataxu.net&rts=1&btid=NDAxMDkzMDQ2NTQzNTk3MzE2OHxBRkQ2MEJyOExIfDE1MDcwNDA3NzUyMTh8ODQ4MzI0Mjk5MzA1NTU0OTZ8MEZoajdnVUxkR3wwUlJGcjRuUjJEfC0xNDE4NTg1MTY5X0dFTl9FWHwyMzUwNHx8fHwxNy4wUHxVU0Q&ei=APPNEXUS&psid=MTE0&js=0&ob=0&ccw=SUFCMTkjMC4xODYyMjMzNHxJQUI2LTQjMC4xODYyMjMzNHxJQUIxIzAuMTI4NTg4ODN8SUFCOS0xNSMwLjA2NjM3NTYzNnxJQUIxLTEjMC4wNjYzNzU2MzZ8SUFCMyMwLjA2NDQ2NzAwNXxJQUI1LTMjMC4wNTQ1NDgyMjN8SUFCOS0xIzAuMDU0NTQ4MjIzfElBQjEtMyMwLjA1NDU0ODIyM3xJQUIxOS02IzAuMDM2NTk4OTg0fElBQjUjMC4wfElBQjYjMC4wfElBQjkjMC4w&ci=0CJicxQ0rj&fiu=MEZoajdnVUxkRw&sd=sitepoint.com&s=http%3A%2F%2Fsitepoint.com&ts=1507040775237&dvt=1&dvdp=tps30.doubleverify.com/visit.jpg&ai=0DA1zJOzsl&c=MX&r=09&m=0&pc=06300&rnd=1218246662291446&mi=d2Vi&epid=QVAxNjEzLTEwNzAxODc&esid=QVAzMDU2NjMy&ct=b126c92c760c4964ba6058483a07fa14&os=Mm8wMDAx&dc=NzI4NWEyMmNjZmE2NGM1Y2JmMzBmYzExNmQzNGFhNGU&dv=MUxMV2p4SWE0Zw&dm=MU1hWjlXU2g0Mg&dt=2dt0005&l=ZW58ZW58&mt=2cmt0001&ri=2r0000&v=1&euid=MDg4MzM0ZmNkZThhYTQ2MzExYmFiZjA1NTdiMWI4ZGNjYjQyOTU5MV9HRU4&mt=2cmt0001&mi=d2Vi"
+1507040780325	Marionette	DEBUG	Received DOM event "pageshow" for "https://cdn.w55c.net/i/s_0RRFr4nR2D_128842607.html?wp_exchange=0.018182&rtbhost=rtb03-c.us.dataxu.net&rts=1&btid=NDAxMDkzMDQ2NTQzNTk3MzE2OHxBRkQ2MEJyOExIfDE1MDcwNDA3NzUyMTh8ODQ4MzI0Mjk5MzA1NTU0OTZ8MEZoajdnVUxkR3wwUlJGcjRuUjJEfC0xNDE4NTg1MTY5X0dFTl9FWHwyMzUwNHx8fHwxNy4wUHxVU0Q&ei=APPNEXUS&psid=MTE0&js=0&ob=0&ccw=SUFCMTkjMC4xODYyMjMzNHxJQUI2LTQjMC4xODYyMjMzNHxJQUIxIzAuMTI4NTg4ODN8SUFCOS0xNSMwLjA2NjM3NTYzNnxJQUIxLTEjMC4wNjYzNzU2MzZ8SUFCMyMwLjA2NDQ2NzAwNXxJQUI1LTMjMC4wNTQ1NDgyMjN8SUFCOS0xIzAuMDU0NTQ4MjIzfElBQjEtMyMwLjA1NDU0ODIyM3xJQUIxOS02IzAuMDM2NTk4OTg0fElBQjUjMC4wfElBQjYjMC4wfElBQjkjMC4w&ci=0CJicxQ0rj&fiu=MEZoajdnVUxkRw&sd=sitepoint.com&s=http%3A%2F%2Fsitepoint.com&ts=1507040775237&dvt=1&dvdp=tps30.doubleverify.com/visit.jpg&ai=0DA1zJOzsl&c=MX&r=09&m=0&pc=06300&rnd=1218246662291446&mi=d2Vi&epid=QVAxNjEzLTEwNzAxODc&esid=QVAzMDU2NjMy&ct=b126c92c760c4964ba6058483a07fa14&os=Mm8wMDAx&dc=NzI4NWEyMmNjZmE2NGM1Y2JmMzBmYzExNmQzNGFhNGU&dv=MUxMV2p4SWE0Zw&dm=MU1hWjlXU2g0Mg&dt=2dt0005&l=ZW58ZW58&mt=2cmt0001&ri=2r0000&v=1&euid=MDg4MzM0ZmNkZThhYTQ2MzExYmFiZjA1NTdiMWI4ZGNjYjQyOTU5MV9HRU4&mt=2cmt0001&mi=d2Vi"
+1507040780344	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040782509	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.sitepoint.com/"
+1507040782512	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040807243	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&SPug=true&p=46338&predirect=https%3A%2F%2Fads.servebom.com%2Fpartner%3Fcd%3D5887%26svc%3Dus%26id%3D5%26uid%3D&it=0&np=0"
+1507040807247	Marionette	DEBUG	Received DOM event "pageshow" for "https://ads.pubmatic.com/AdServer/js/user_sync.html?r=5887&p=46338&predirect=https%3A%2F%2Fads.servebom.com%2Fpartner%3Fcd%3D5887%26svc%3Dus%26id%3D5%26uid%3D"
+1507040807265	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.sitepoint.com/"
+1507040807298	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.sitepoint.com/"
+1507040807336	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.sitepoint.com/"
+1507040807341	Marionette	DEBUG	Received DOM event "unload" for "https://www.sitepoint.com/"
+1507040807414	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://nitrowriters.com/form/form.html"
+1507040807479	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483755"
+1507040807479	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483768"
+1507040807480	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483744"
+1507040807480	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483750"
+1507040807481	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483693"
+1507040807481	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483753"
+1507040807481	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483754"
+1507040807481	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483742"
+1507040807482	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483746"
+1507040807482	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483694"
+1507040807482	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483788"
+1507040807482	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483790"
+1507040807483	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483737"
+1507040807483	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483777"
+1507040807483	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483738"
+1507040807483	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483695"
+1507040807484	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483761"
+1507040807484	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483792"
+1507040807484	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483795"
+1507040807484	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483783"
+1507040807484	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483756"
+1507040807484	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483784"
+1507040807485	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483725"
+1507040807485	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1507040807496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1507040807496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
+1507040807497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1507040807497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507040807497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1507040807497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1507040807497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
+1507040807497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483710"
+1507040807498	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483711"
+1507040807498	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
+1507040807498	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483713"
+1507040807498	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483714"
+1507040807498	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483715"
+1507040807499	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483686"
+1507040807499	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1507040807499	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+1507040807499	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483698"
+1507040807499	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1507040807500	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483672"
+1507040807500	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483684"
+1507040807500	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483699"
+1507040807500	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483728"
+1507040807500	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483801"
+1507040807567	Marionette	DEBUG	Received DOM event "pageshow" for "http://nitrowriters.com/form/form.html"
