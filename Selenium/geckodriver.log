@@ -974,3 +974,955 @@ JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_co
 1507042558345	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loop11.com/usertest/get-session"
 1507042558347	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loop11.com/usertest/get-session"
 1507042562714	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507293730689	geckodriver	INFO	geckodriver 0.19.0
+1507293730778	geckodriver	INFO	Listening on 127.0.0.1:63081
+1507293733799	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.bfOQQFrSQZib"
+1507293734186	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507293734553	Marionette	INFO	Enabled via --marionette
+2017-10-06 07:42:15.543 plugin-container[8583:1610254] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507293736005	Marionette	INFO	Listening on port 63094
+1507293736056	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507293736090	Marionette	DEBUG	Register listener.js for window 2147483649
+1507293736116	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507293736508	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507293736508	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507293737761	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507293737765	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507293784152	geckodriver	INFO	geckodriver 0.19.0
+1507293784236	geckodriver	INFO	Listening on 127.0.0.1:63198
+1507293787230	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.dariirF6ORgm"
+1507293787509	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507293787797	Marionette	INFO	Enabled via --marionette
+2017-10-06 07:43:08.635 plugin-container[8605:1612763] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507293789016	Marionette	INFO	Listening on port 63209
+1507293789470	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507293789502	Marionette	DEBUG	Register listener.js for window 2147483649
+1507293789528	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507293789982	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507293789982	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507293791281	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507293791284	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507293818842	geckodriver	INFO	geckodriver 0.19.0
+1507293818925	geckodriver	INFO	Listening on 127.0.0.1:63291
+1507293821929	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.JacpbdLXlPmW"
+1507293822197	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507293822488	Marionette	INFO	Enabled via --marionette
+2017-10-06 07:43:43.336 plugin-container[8625:1614122] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507293823714	Marionette	INFO	Listening on port 63302
+1507293824173	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507293824205	Marionette	DEBUG	Register listener.js for window 2147483649
+1507293824223	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507293824623	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507293824624	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507293826110	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507293826114	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1507293859325	geckodriver	INFO	geckodriver 0.19.0
+1507293859406	geckodriver	INFO	Listening on 127.0.0.1:63391
+1507293862407	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.8LZzYB4BPwdj"
+1507293862667	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507293862951	Marionette	INFO	Enabled via --marionette
+2017-10-06 07:44:23.791 plugin-container[8645:1615443] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507293864170	Marionette	INFO	Listening on port 63402
+1507293864652	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507293864683	Marionette	DEBUG	Register listener.js for window 2147483649
+1507293864705	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507293865102	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507293865104	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507293866369	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507293866373	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507293963937	geckodriver	INFO	geckodriver 0.19.0
+1507293964022	geckodriver	INFO	Listening on 127.0.0.1:63614
+1507293967013	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.2aiXNw6xE5Ag"
+1507293967272	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507293967556	Marionette	INFO	Enabled via --marionette
+2017-10-06 07:46:08.388 plugin-container[8670:1619046] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507293968855	Marionette	INFO	Listening on port 63625
+1507293969253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507293969283	Marionette	DEBUG	Register listener.js for window 2147483649
+1507293969301	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507293970873	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507293970874	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507293972343	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507293978120	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507293978724	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507293979246	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507293979247	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507293980075	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507293980076	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507293980076	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507293980077	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507293980077	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507293980078	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507293980456	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507293980460	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507294267360	geckodriver	INFO	geckodriver 0.19.0
+1507294267445	geckodriver	INFO	Listening on 127.0.0.1:64394
+1507294270457	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.vA9R5ZjnN8ae"
+1507294270738	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507294271034	Marionette	INFO	Enabled via --marionette
+2017-10-06 07:51:11.926 plugin-container[8741:1639650] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507294272349	Marionette	INFO	Listening on port 64407
+1507294272688	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507294272719	Marionette	DEBUG	Register listener.js for window 2147483649
+1507294272744	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507294274152	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507294274152	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507294275618	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507294282063	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294282454	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294282882	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294282883	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294283700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507294283700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507294283701	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507294283701	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507294283701	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507294283702	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507294284300	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507294284306	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507294629172	geckodriver	INFO	geckodriver 0.19.0
+1507294629255	geckodriver	INFO	Listening on 127.0.0.1:65206
+1507294633070	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.gIfHEdRHPWLV"
+1507294633450	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507294633784	Marionette	INFO	Enabled via --marionette
+2017-10-06 07:57:14.602 plugin-container[9584:1656400] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa937, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507294635022	Marionette	INFO	Listening on port 65217
+1507294635302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507294635335	Marionette	DEBUG	Register listener.js for window 2147483649
+1507294635360	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507294636853	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507294636854	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507294638216	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507294645748	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294646141	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294646611	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294646612	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294647403	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507294647404	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507294647404	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507294647404	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1507294647404	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1507294647405	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1507294647822	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507294647827	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507294810089	geckodriver	INFO	geckodriver 0.19.0
+1507294810171	geckodriver	INFO	Listening on 127.0.0.1:49287
+1507294813219	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.kcybPB4mhIyk"
+1507294813500	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507294813796	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:00:14.648 plugin-container[9637:1664424] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507294815026	Marionette	INFO	Listening on port 49298
+1507294815469	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507294815500	Marionette	DEBUG	Register listener.js for window 2147483649
+1507294815520	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507294816870	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507294816870	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507294821573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507294827449	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294827861	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294828255	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294828256	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294829054	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507294829055	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1507294829056	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1507294829056	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507294829057	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1507294829057	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1507294829506	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507294829509	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507294911751	geckodriver	INFO	geckodriver 0.19.0
+1507294911838	geckodriver	INFO	Listening on 127.0.0.1:49605
+1507294914837	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.jo1ulV46Gomw"
+1507294915114	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507294915415	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:01:56.261 plugin-container[9664:1668794] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507294916669	Marionette	INFO	Listening on port 49616
+1507294917081	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507294917113	Marionette	DEBUG	Register listener.js for window 2147483649
+1507294917134	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507294918472	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507294918472	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507294919911	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507294927282	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294927669	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294928080	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294928080	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294928857	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507294928858	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1507294928858	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1507294928858	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507294928859	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1507294928859	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1507294929280	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507294929287	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507294951444	geckodriver	INFO	geckodriver 0.19.0
+1507294951506	geckodriver	INFO	Listening on 127.0.0.1:49792
+1507294954546	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.uP9IUlaqjoI2"
+1507294954811	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507294955108	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:02:35.950 plugin-container[9685:1669830] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507294956327	Marionette	INFO	Listening on port 49803
+1507294956790	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507294956822	Marionette	DEBUG	Register listener.js for window 2147483649
+1507294956840	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507294958086	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507294958087	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507294959451	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507294966824	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294967253	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294967666	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294967667	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507294968493	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507294968494	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507294968494	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507294968494	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507294968495	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507294968496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1507294968904	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507294968909	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507295056805	geckodriver	INFO	geckodriver 0.19.0
+1507295056891	geckodriver	INFO	Listening on 127.0.0.1:50092
+1507295059886	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.lHL5XPKAvgtj"
+1507295060150	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507295060448	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:04:21.279 plugin-container[9711:1672577] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507295061648	Marionette	INFO	Listening on port 50105
+1507295062223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507295062255	Marionette	DEBUG	Register listener.js for window 2147483649
+1507295062276	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507295063724	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507295063725	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507295065188	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295071272	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295071745	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295072205	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295072206	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295073047	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507295073048	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1507295073048	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1507295073048	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507295073049	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1507295073049	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1507295073457	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507295073465	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507295135661	geckodriver	INFO	geckodriver 0.19.0
+1507295135746	geckodriver	INFO	Listening on 127.0.0.1:50380
+1507295138737	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.cqO0IdFRgG8G"
+1507295139025	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507295139337	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:05:40.194 plugin-container[9847:1676221] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507295140615	Marionette	INFO	Listening on port 50393
+1507295140976	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507295141014	Marionette	DEBUG	Register listener.js for window 2147483649
+1507295141039	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507295142502	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507295142502	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507295143974	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295150509	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295150948	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295151413	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295151413	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295152191	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507295152192	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1507295152192	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1507295152192	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507295152193	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1507295152193	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1507295152663	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507295152667	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507295216532	geckodriver	INFO	geckodriver 0.19.0
+1507295216611	geckodriver	INFO	Listening on 127.0.0.1:50674
+1507295219659	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.3e2q7xYPyRPa"
+1507295219935	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507295220235	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:07:01.098 plugin-container[9963:1680069] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507295221546	Marionette	INFO	Listening on port 50686
+1507295221903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507295221938	Marionette	DEBUG	Register listener.js for window 2147483649
+1507295221963	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507295223272	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507295223273	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507295224724	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295230718	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295231244	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295231639	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295231640	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295232426	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507295232427	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507295232427	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507295232428	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507295232428	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1507295232429	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1507295233098	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507295233103	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295275322	geckodriver	INFO	geckodriver 0.19.0
+1507295275407	geckodriver	INFO	Listening on 127.0.0.1:50941
+1507295278396	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.nZtVM7yMnVGu"
+1507295278691	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507295278987	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:07:59.878 plugin-container[10001:1682029] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507295280261	Marionette	INFO	Listening on port 50954
+1507295280635	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507295280669	Marionette	DEBUG	Register listener.js for window 2147483649
+1507295280687	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507295282032	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507295282032	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507295283438	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295290444	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295290913	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295291331	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295291332	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295292123	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507295292123	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1507295292124	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1507295292124	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507295292125	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1507295292125	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1507295292586	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507295292591	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1507295463311	geckodriver	INFO	geckodriver 0.19.0
+1507295463374	geckodriver	INFO	Listening on 127.0.0.1:51374
+1507295466405	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.UfW7pSjaM4Tm"
+1507295466624	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507295466909	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:11:07.708 plugin-container[10062:1689284] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa937, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507295468071	Marionette	INFO	Listening on port 51385
+1507295468643	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507295468678	Marionette	DEBUG	Register listener.js for window 2147483649
+1507295468695	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507295470062	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507295470062	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507295471469	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295478154	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295529267	geckodriver	INFO	geckodriver 0.19.0
+1507295529334	geckodriver	INFO	Listening on 127.0.0.1:51580
+1507295532367	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.JbqaJfbX3EZB"
+1507295532564	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507295532844	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:12:13.639 plugin-container[10086:1691706] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507295534005	Marionette	INFO	Listening on port 51593
+1507295534615	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507295534652	Marionette	DEBUG	Register listener.js for window 2147483649
+1507295534668	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507295536065	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507295536066	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507295537411	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295544210	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295544585	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295545695	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295545696	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295546859	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507295546859	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507295546860	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507295546860	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1507295546860	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1507295546861	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1507295546953	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507295546961	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507295581428	geckodriver	INFO	geckodriver 0.19.0
+1507295581490	geckodriver	INFO	Listening on 127.0.0.1:51811
+1507295584532	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.ATSJQxdNiPzJ"
+1507295584730	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507295585004	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:13:05.797 plugin-container[10109:1694340] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507295586222	Marionette	INFO	Listening on port 51824
+1507295586786	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507295586823	Marionette	DEBUG	Register listener.js for window 2147483649
+1507295586839	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507295588094	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507295588095	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507295589458	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295595648	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295596022	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295597506	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295597506	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295598765	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507295598766	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507295598766	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507295598766	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507295598766	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507295598767	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507295598992	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507295598998	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507295742088	geckodriver	INFO	geckodriver 0.19.0
+1507295742157	geckodriver	INFO	Listening on 127.0.0.1:52204
+1507295745182	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.9cq8dA027FRx"
+1507295745450	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507295745743	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:15:46.574 plugin-container[10133:1697717] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507295746972	Marionette	INFO	Listening on port 52215
+1507295747422	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507295747454	Marionette	DEBUG	Register listener.js for window 2147483649
+1507295747473	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507295748929	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507295748929	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507295750337	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295756745	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295757296	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295758045	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295758045	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295758962	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507295758963	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507295758963	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507295758963	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507295758963	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507295758964	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507295759296	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507295759301	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507295877038	geckodriver	INFO	geckodriver 0.19.0
+1507295877101	geckodriver	INFO	Listening on 127.0.0.1:52573
+1507295880142	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.l1KPKZ9xyeEt"
+1507295880413	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507295880708	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:18:01.539 plugin-container[10155:1700683] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507295881887	Marionette	INFO	Listening on port 52584
+1507295882381	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507295882416	Marionette	DEBUG	Register listener.js for window 2147483649
+1507295882434	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507295883811	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507295883811	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507295885226	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507295891617	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295892179	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295892840	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295892841	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507295893624	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507295893624	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1507295893640	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1507295893640	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1507295893641	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1507295893641	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1507295894083	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507295894093	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297091477	geckodriver	INFO	geckodriver 0.19.0
+1507297091564	geckodriver	INFO	Listening on 127.0.0.1:54851
+1507297094568	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.NhDuM5T1aqWz"
+1507297094879	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507297095189	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:38:16.044 plugin-container[10228:1736807] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507297096455	Marionette	INFO	Listening on port 54862
+1507297096814	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507297096847	Marionette	DEBUG	Register listener.js for window 2147483649
+1507297096866	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507297098264	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507297098264	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507297099729	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507297105693	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297106306	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297106710	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297106711	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297107496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507297107496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507297107497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507297107497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507297107497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507297107498	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507297108125	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297108129	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297129834	geckodriver	INFO	geckodriver 0.19.0
+1507297129899	geckodriver	INFO	Listening on 127.0.0.1:55065
+1507297132901	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.3L8cn07CvecA"
+1507297133178	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507297133478	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:38:54.339 plugin-container[10248:1737866] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507297134719	Marionette	INFO	Listening on port 55076
+1507297135144	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507297135179	Marionette	DEBUG	Register listener.js for window 2147483649
+1507297135197	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507297136481	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507297136481	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507297137929	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507297144436	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297145045	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297145452	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297145453	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297146241	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507297146255	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507297146256	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507297146256	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507297146256	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507297146257	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507297146696	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297146701	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+objc[10247]: Class FIFinderSyncExtensionHost is implemented in both /System/Library/PrivateFrameworks/FinderKit.framework/Versions/A/FinderKit (0x7fff9f4c2a70) and /System/Library/PrivateFrameworks/FileProvider.framework/OverrideBundles/FinderSyncCollaborationFileProviderOverride.bundle/Contents/MacOS/FinderSyncCollaborationFileProviderOverride (0x12eb62cd8). One of the two will be used. Which one is undefined.
+1507297395528	geckodriver	INFO	geckodriver 0.19.0
+1507297395616	geckodriver	INFO	Listening on 127.0.0.1:55630
+1507297398623	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.K5zJM3fQUYaa"
+1507297398911	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507297399216	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:43:20.057 plugin-container[10271:1743727] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507297400464	Marionette	INFO	Listening on port 55641
+1507297400859	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507297400893	Marionette	DEBUG	Register listener.js for window 2147483649
+1507297400911	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507297402366	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507297402366	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507297403840	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507297410337	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297542335	geckodriver	INFO	geckodriver 0.19.0
+1507297542416	geckodriver	INFO	Listening on 127.0.0.1:55974
+1507297545434	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.EgHouwUmWo2e"
+1507297545729	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507297546023	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:45:46.912 plugin-container[10292:1749187] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507297547315	Marionette	INFO	Listening on port 55985
+1507297547673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507297547711	Marionette	DEBUG	Register listener.js for window 2147483649
+1507297547730	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507297549159	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507297549159	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507297550625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507297556717	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297638188	geckodriver	INFO	geckodriver 0.19.0
+1507297638274	geckodriver	INFO	Listening on 127.0.0.1:56310
+1507297641292	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.TNXXjWVylieM"
+1507297641589	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507297641897	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:47:22.763 plugin-container[10316:1753192] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507297643180	Marionette	INFO	Listening on port 56323
+1507297643544	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507297643577	Marionette	DEBUG	Register listener.js for window 2147483649
+1507297643595	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507297645008	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507297645008	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507297646399	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507297652309	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297652996	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297653424	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297653424	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297654304	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507297654304	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507297654305	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507297654305	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507297654305	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507297654306	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507297654669	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297654674	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297654809	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297655021	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297655021	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297655121	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297655124	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297684176	geckodriver	INFO	geckodriver 0.19.0
+1507297684258	geckodriver	INFO	Listening on 127.0.0.1:56539
+1507297687263	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.UatE1ur0VtV9"
+1507297687547	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507297687849	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:48:08.681 plugin-container[10336:1754515] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507297689101	Marionette	INFO	Listening on port 56550
+1507297689521	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507297689552	Marionette	DEBUG	Register listener.js for window 2147483649
+1507297689571	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507297690781	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507297690781	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507297692204	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507297698078	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297698782	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297699299	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297699300	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297700089	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507297700090	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507297700091	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507297700091	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507297700092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507297700093	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507297700550	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297700554	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297700670	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297700879	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297700879	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297700968	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297700971	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297701210	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297701427	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297701427	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297701556	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297701559	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297701904	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297702122	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297702124	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297702223	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297702226	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297702466	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297702681	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297702685	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297702786	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297702788	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297703121	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297703336	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297703338	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297703430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297703433	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297703654	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297703868	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297703870	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297703981	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297703983	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297704201	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297704415	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297704416	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297704506	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297704508	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297704724	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297704939	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297704941	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297705043	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297705045	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297705267	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297705479	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297705481	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297705579	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297705581	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297705811	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297706087	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297706089	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297706188	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297706192	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297706413	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297706625	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297706627	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297706729	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297706731	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297706979	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297707192	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297707197	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297707313	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297707315	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297707577	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297707841	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297707842	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297707937	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297707939	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297708168	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297708378	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297708382	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297708474	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297708476	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297708691	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297708907	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297708909	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297709005	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297709009	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297709242	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297709539	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297709541	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297709645	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297709647	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297709841	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297710057	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297710058	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297710156	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297710158	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297710414	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297710630	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297710632	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297710739	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297710741	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297710988	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297711204	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297711207	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297711304	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297711306	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297711519	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297711731	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297711733	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297711823	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297711825	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297754951	geckodriver	INFO	geckodriver 0.19.0
+1507297755029	geckodriver	INFO	Listening on 127.0.0.1:56921
+1507297758044	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.jYJ269nPYauc"
+1507297758332	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507297758687	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:49:19.536 plugin-container[10354:1756013] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507297759931	Marionette	INFO	Listening on port 56934
+1507297760349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507297760382	Marionette	DEBUG	Register listener.js for window 2147483649
+1507297760403	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507297761828	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507297761828	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507297763309	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507297769390	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297770100	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297770513	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297770513	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297771305	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507297771305	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507297771306	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507297771306	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1507297771306	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1507297771307	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1507297771908	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297771912	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297772042	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297772251	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297772251	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297772346	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297772348	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297772591	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297772798	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297772798	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297772886	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297772888	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297773148	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297773359	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297773359	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297773449	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297773451	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297773674	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297773881	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297773881	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297773970	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297773972	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297774180	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297774385	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297774385	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297774473	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297774475	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297774682	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297774886	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297774886	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297774978	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297774981	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297775186	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297775397	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297775397	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297775488	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297775491	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297775697	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297775962	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297775962	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297776048	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297776052	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297776259	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297776485	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297776486	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297776582	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297776585	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297776793	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297777001	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297777001	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297777099	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297777103	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297777303	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297777513	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297777513	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297777645	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297777647	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297777872	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297778155	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297778156	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297778248	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297778251	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297778503	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297778712	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297778712	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297778798	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297778800	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297779041	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297779252	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297779253	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297779348	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297779351	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297779544	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297779752	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297779752	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297779842	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297779845	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297780057	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297780263	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297780263	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297780350	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297780353	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297780541	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297780748	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297780748	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297780838	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297780842	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297781052	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297781292	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297781292	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297781384	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297781386	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297781626	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297781829	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297781829	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297781919	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297781922	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297782194	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297782402	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297782403	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297782498	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297782501	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297822544	geckodriver	INFO	geckodriver 0.19.0
+1507297822634	geckodriver	INFO	Listening on 127.0.0.1:57287
+1507297825645	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l0/drr_7f4x6ss4765lmq8kxzzw0000gn/T/rust_mozprofile.PWMfBKojN7sX"
+1507297825937	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1507297826236	Marionette	INFO	Enabled via --marionette
+2017-10-06 08:50:27.167 plugin-container[10374:1757637] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1507297827591	Marionette	INFO	Listening on port 57302
+1507297827888	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507297827921	Marionette	DEBUG	Register listener.js for window 2147483649
+1507297827941	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507297829367	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507297829368	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507297830826	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+JavaScript warning: https://www.rmit.edu.au/etc/designs/rmit-ui/plugins/bower_components/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1507297837271	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297837956	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297838379	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297838379	Marionette	DEBUG	Received DOM event "unload" for "https://www.rmit.edu.au/about/our-education/academic-schools/graduate-school-of-business-and-law/research/phds-with-the-graduate-school-of-business-and-law/research-supervisors"
+1507297839210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507297839211	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1507297839211	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1507297839211	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1507297839212	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1507297839212	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1507297839727	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297839732	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297839865	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297840084	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297840084	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297840174	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297840177	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297840418	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297840625	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297840625	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297840723	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297840726	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297841007	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297841209	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297841210	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297841304	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297841307	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297841527	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297841742	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297841743	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297841840	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297841843	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297842055	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297842276	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297842276	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297842368	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297842370	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297842580	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297842781	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297842781	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297842882	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297842886	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297843120	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297843321	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297843321	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297843412	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297843415	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297843640	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297843843	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297843843	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297843932	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297843935	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297844136	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297844338	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297844338	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297844430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297844433	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297844655	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297844899	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297844899	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297845006	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297845009	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297845220	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297845423	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297845423	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297845555	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297845560	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297845828	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297846032	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297846032	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297846126	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297846130	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297846344	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297846547	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297846547	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297846642	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297846644	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297846886	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297847090	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297847090	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297847182	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297847185	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297847382	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297847580	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297847580	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297847678	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297847681	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297847903	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297848116	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297848116	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297848205	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297848208	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297848399	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297848599	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297848599	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297848689	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297848692	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297848904	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297849103	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297849103	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297849190	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297849193	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
+1507297849437	Marionette	DEBUG	Received DOM event "beforeunload" for "http://blazedemo.com/register"
+1507297849640	Marionette	DEBUG	Received DOM event "pagehide" for "http://blazedemo.com/register"
+1507297849640	Marionette	DEBUG	Received DOM event "unload" for "http://blazedemo.com/register"
+1507297849797	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://blazedemo.com/register"
+1507297849801	Marionette	DEBUG	Received DOM event "pageshow" for "http://blazedemo.com/register"
